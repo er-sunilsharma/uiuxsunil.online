@@ -1,14 +1,40 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
-import mockupdesktop from "public/mockup--desktop--browser--light--rounded.svg";
 import mainview from "public/cheersagar/main_view.png";
-import imgtow from "public/cheersagar/img_tow.svg";
 import imgthree from "public/cheersagar/img_three.jpg";
 import Link from "next/link";
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css";
 
 export default function CheerSagar() {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  const images = ["/cheersagar/main_view.png", "/cheersagar/img_three.jpg"];
+
+  const openLightbox = (index) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  };
   return (
     <>
+      {lightboxOpen && (
+        <Lightbox
+          mainSrc={images[lightboxIndex]}
+          nextSrc={images[(lightboxIndex + 1) % images.length]}
+          prevSrc={images[(lightboxIndex + images.length - 1) % images.length]}
+          onCloseRequest={() => setLightboxOpen(false)}
+          onMovePrevRequest={() =>
+            setLightboxIndex(
+              (lightboxIndex + images.length - 1) % images.length
+            )
+          }
+          onMoveNextRequest={() =>
+            setLightboxIndex((lightboxIndex + 1) % images.length)
+          }
+        />
+      )}
       <div className="w-full bg-gray-50">
         <div className="mx-auto max-w-6xl px-4">
           <div className="w-full pt-12 md:pt-20 pb-12 md:pb-20">
@@ -23,35 +49,22 @@ export default function CheerSagar() {
                   touch pressure.
                 </p>
               </div>
-              <div className="w-full relative shadow-xl">
-                <div className="absolute inset-0 z-10 h-945 w-998 mt-04">
-                  <Image
-                    src={mainview}
+              <div className="w-full relative">
+                <button onClick={() => openLightbox(0)}>
+                  <img
+                    src={images[0]}
                     alt="mainview"
-                    width="0"
-                    height="0"
-                    sizes="100vw"
-                    className="w-full h-auto"
-                    priority
+                    width={500}
+                    height={500}
+                    className="cursor-pointer"
                   />
-                </div>
-                <div className="relative">
-                  <Image
-                    src={mockupdesktop}
-                    alt="mockupdesktop"
-                    width="0"
-                    height="0"
-                    sizes="100vw"
-                    className="h-auto max-w-full"
-                    priority
-                  />
-                </div>
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-white py-12 md:py-20 text-center">
+        {/* <div className="bg-white py-12 md:py-20 text-center">
           <div className="mx-auto max-w-6xl px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-5">
               <div className="w-full">
@@ -82,20 +95,8 @@ export default function CheerSagar() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full bg-white">
-          <div className="mx-auto max-w-6xl px-4">
-            <Image
-              src={imgtow}
-              alt="imgtow"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto"
-              priority
-            />
-          </div>
-        </div>
+        </div> */}
+
         <div className="bg-white py-12 md:py-24">
           <div className="mx-auto max-w-6xl px-4">
             <div className="mx-auto w-full md:w-2/3 space-y-10 md:space-y-24">
@@ -135,15 +136,15 @@ export default function CheerSagar() {
         </div>
         <div className="w-full bg-white">
           <div className="mx-auto max-w-6xl px-4">
-            <Image
-              src={imgthree}
-              alt="imgthree"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto"
-              priority
-            />
+            <button onClick={() => openLightbox(1)}>
+              <img
+                src={images[1]}
+                alt="imgthree"
+                width={500}
+                height={500}
+                className="cursor-pointer"
+              />
+            </button>
           </div>
         </div>
         <div className="bg-white py-12 md:py-24">
