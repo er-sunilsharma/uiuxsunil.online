@@ -21,24 +21,29 @@ export default function About() {
             </div>
             <div className="w-full space-y-4 px-0 md:px-10">
               <h2 className="text-brand text-3xl md:text-5xl font-bold">
-                Hi, Im Nil.
+                Hi, Im Sunil.
               </h2>
               <div className="space-y-4 text-base text-dark leading-26">
                 <div>
-                  My passion for UX design started during my undergraduate
-                  studies in computer science.
+                  With a BCA degree from the Central University of Rajasthan,
+                  Jaipur, I am a Team Leader at UI/UX Designer at BDA Global
+                  Corp, where I fuse design expertise with frontend skills to
+                  build captivating and responsive digital experiences. I use
+                  React and Next JS to create seamless and engaging user
+                  interfaces, leading and contributing to multiple UI projects
+                  for various clients and domains.
                 </div>
                 <div>
-                  My passion for UX design started during my undergraduate
-                  studies in computer science.
-                </div>
-                <div>
-                  My passion for UX design started during my undergraduate
-                  studies in computer science.
-                </div>
-                <div>
-                  My passion for UX design started during my undergraduate
-                  studies in computer science.
+                  I have over six years of experience in UI/UX design and
+                  development, and I am passionate about leveraging technology
+                  to drive innovation and create meaningful impact. I
+                  collaborate with diverse teams across the organization,
+                  mentoring and supporting other UI developers, sharing best
+                  practices and feedback, and fostering connections. I am
+                  dedicated to continuous learning and growth in the world of UI
+                  development, and I am always eager to explore new challenges
+                  and opportunities. Let's connect and see how we can make a
+                  difference together.
                 </div>
               </div>
             </div>
@@ -66,6 +71,7 @@ export default function About() {
                   <li>Adobe Photoshop</li>
                   <li>Adobe Illustrator</li>
                   <li>Adobe XD</li>
+                  <li>Figma</li>
                 </ul>
               </div>
             </div>

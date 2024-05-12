@@ -11,6 +11,7 @@ import fun2048 from "public/fun2048.png";
 import thejohribazar from "public/thejohribazar.png";
 import famous11 from "public/famous11.png";
 import choic11 from "public/choic11.png";
+import bharatiyapashupalan from "public/bharatiyapashupalan.png";
 
 export default function ProjectPortfolio() {
   return (
@@ -216,6 +217,33 @@ export default function ProjectPortfolio() {
           <h3 className="text-left text-brand text-sm">
             APP DESIGNING ︲ APP UX RESEARCH
           </h3>
+        </div>
+      </div>
+      <div className="w-full shadow-lg">
+        <Link
+          href="/bharatiyapashupalan"
+          rel="nofollow"
+          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+        >
+          <Image
+            src={bharatiyapashupalan}
+            alt="bharatiyapashupalan"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto"
+            priority
+          />
+        </Link>
+        <div className="space-y-2 md:space-y-4 px-5 pb-5">
+          <Link
+            href="/bharatiyapashupalan"
+            rel="nofollow"
+            className="text-xl md:text-2xl text-brand font-bold"
+          >
+            Bhartiya Pashupalan
+          </Link>
+          <h3 className="text-left text-brand text-sm">UI DEVELOPMENT</h3>
         </div>
       </div>
       <div className="w-full shadow-lg">
