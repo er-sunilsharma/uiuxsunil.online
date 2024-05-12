@@ -116,7 +116,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="mailto:sharmasunil0968"
+                      href="https://wa.me/9680024968"
                       className="block py-2 px-3 text-brand md:p-0"
                     >
                       Contact

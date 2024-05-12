@@ -4,14 +4,12 @@ import React from "react";
 import Image from "next/image";
 import mockupdesktop from "public/mockup--desktop--browser--light--rounded.svg";
 import mainview from "public/cheersagar/main_view.png";
-import imgtow from "public/cheersagar/img_tow.png";
-import imgthree from "public/cheersagar/img_three.jpg";
 import Link from "next/link";
 
 export default function CheerSagar() {
   return (
     <>
-      <div className="w-full bg-gray-50">
+      <div className="w-full bg-white">
         <div className="mx-auto max-w-6xl px-4">
           <div className="w-full pt-12 md:pt-20 pb-12 md:pb-20">
             <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-7 md:gap-10 items-center">
@@ -20,9 +18,10 @@ export default function CheerSagar() {
                   Cheer Sagar
                 </h2>
                 <p className="space-y-4 text-xl text-dark leading-9 font-normal">
-                  A website redesign for a beauty-focused sleepwear brand
-                  showcasing versatile products that utilize the science of deep
-                  touch pressure.
+                  Cheer Sagar is leading garment manufacturer, supplier and
+                  exporter in India, offers the complete range of Boutique
+                  clothing, formal wear, casual wear, party wear clothing for
+                  women and kids at most affordable prices.
                 </p>
               </div>
               <div className="w-full relative shadow-xl">
@@ -53,7 +52,7 @@ export default function CheerSagar() {
           </div>
         </div>
 
-        <div className="bg-white py-12 md:py-20 text-center">
+        <div className="bg-gray-50 py-12 md:py-14 text-center">
           <div className="mx-auto max-w-6xl px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-5">
               <div className="w-full">
@@ -61,8 +60,8 @@ export default function CheerSagar() {
                   Role
                 </h4>
                 <div className="space-y-2.5 text-lg md:text-base text-gray-600 font-medium italic">
-                  <div>Project Designer</div>
-                  <div>UI Developer</div>
+                  <div>Ui/Ux Designing</div>
+                  <div>Ux Research</div>
                 </div>
               </div>
               <div className="w-full">
@@ -71,7 +70,6 @@ export default function CheerSagar() {
                 </h4>
                 <div className="space-y-2.5 text-lg md:text-base text-gray-600 font-medium italic">
                   <div>Mr. Nikhar Sharma</div>
-                  <div>Manager.</div>
                 </div>
               </div>
               <div className="w-full">
@@ -79,7 +77,7 @@ export default function CheerSagar() {
                   DURATION
                 </h4>
                 <div className="space-y-2.5 text-lg md:text-base text-gray-600 font-medium italic">
-                  <div>(5 mo. total)</div>
+                  <div>(2 mo. total)</div>
                 </div>
               </div>
             </div>
@@ -94,7 +92,7 @@ export default function CheerSagar() {
           />
         </div>
 
-        <div className="bg-white pt-12 md:pt-24">
+        <div className="bg-white py-12 md:py-24">
           <div className="mx-auto max-w-6xl px-4">
             <div className="mx-auto w-full md:w-2/3 space-y-10 md:space-y-24">
               <div className="space-y-4 md:space-y-5">
@@ -102,36 +100,46 @@ export default function CheerSagar() {
                   01. Overview
                 </h3>
                 <div className="text-lg md:text-base leading-8 md:leading-7 md:font-normal text-gray-700">
-                  Nodpod is a beauty-focused sleepwear brand that believes in
-                  the science of deep touch pressure to promote relaxation and
-                  restful sleep. Their signature product, the Nodpod Sleep Mask,
-                  is a unique and innovative weighted eye mask designed to
-                  provide gentle pressure to the eyes, promoting a sense of calm
-                  and relaxation. Nodpod came to Adspace Agency seeking a
-                  responsive website redesign that would help them better
-                  showcase their products, educate customers about the benefits
-                  of deep touch pressure, promote their mission to spread
-                  awareness about the importance of self-care, and ultimately
-                  increase conversion rate.
+                  Garment Clothing Manufacturer Exporter in Jaipur, India. Cheer
+                  Sagar is leading garment manufacturer, supplier and exporter
+                  in India, offers the complete range of Boutique clothing,
+                  formal wear, casual wear, party wear clothing for women and
+                  kids at most affordable prices.
                 </div>
               </div>
               <div className="space-y-4 md:space-y-5">
                 <h3 className="text-2xl md:text-3xl text-gray-800 font-semibold">
                   02. Technology
                 </h3>
-                <div className="text-lg md:text-base leading-8 md:leading-7 md:font-normal text-gray-700">
-                  Prior to their redesign, Nodpod faced a number of challenges
-                  with their website that were hindering their ability to
-                  effectively promote their brand and connect with customers.
-                  Their previous website was outdated, generic, difficult to
-                  navigate, not optimized for mobile devices, and lacked the
-                  modern e-commerce features necessary to drive sales.
+                <div className="text-lg md:text-lg leading-8 md:leading-7 text-gray-700 font-medium">
+                  <ul className="list-disc ml-6 space-y-2">
+                    <li>
+                      <span className="text-gray-700">Design Tool:</span>{" "}
+                      <span className="text-blue-700">Adobe Photoshop</span>
+                    </li>
+                    <li>
+                      <span className="text-gray-700">UI frameworks:</span>{" "}
+                      <span className="text-blue-700">
+                        HTML, CSS, Bootstrap, JavaScript
+                      </span>
+                    </li>
+                    <li>
+                      <span className="text-gray-700">
+                        Programming languages:
+                      </span>{" "}
+                      <span className="text-blue-700">PHP</span>
+                    </li>
+                    <li>
+                      <span className="text-gray-700">Web frameworks:</span>{" "}
+                      <span className="text-blue-700">Laravel</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="bg-white py-10 md:py-20">
+        <div className="bg-gray-50 py-8 md:py-16">
           <div className="mx-auto max-w-6xl px-4">
             <div className="mx-auto w-full md:w-2/3 space-y-4 md:space-y-5 text-center">
               <h3 className="text-2xl md:text-3xl text-gray-800 font-semibold">

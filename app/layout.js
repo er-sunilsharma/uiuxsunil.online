@@ -5,7 +5,7 @@ import "./globals.css";
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ER Sunil Sharma | UI/UX DESIGNER PROJECT PORTFOLIO SHOWCASE",
+  title: "Sunil Sharma | UI/UX DESIGNER PROJECT PORTFOLIO SHOWCASE",
   description:
     "Sr. UI/UX Designer, Next JS, Docker, UI Developer, Product Designer, Mockup, Wireframe, UX Research, Project Management,",
 };
