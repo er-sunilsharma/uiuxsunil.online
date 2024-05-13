@@ -106,7 +106,7 @@ export default function Header() {
                       About
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link
                       href="/figma"
                       className="block py-2 px-3 text-brand md:p-0"
@@ -114,14 +114,6 @@ export default function Header() {
                       Figma
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/logos"
-                      className="block py-2 px-3 text-brand md:p-0"
-                    >
-                      Logo
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
@@ -160,7 +152,7 @@ export default function Header() {
                       About
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link
                       href="/figma"
                       onClick={toggleNavbar}
@@ -169,15 +161,6 @@ export default function Header() {
                       Figma
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/logos"
-                      onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0"
-                    >
-                      Logo
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
