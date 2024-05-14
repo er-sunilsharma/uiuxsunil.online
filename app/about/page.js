@@ -25,15 +25,6 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-base text-dark leading-26">
                 <div>
-                  With a BCA degree from the Central University of Rajasthan,
-                  Jaipur, I am a Team Leader at UI/UX Designer at BDA Global
-                  Corp, where I fuse design expertise with frontend skills to
-                  build captivating and responsive digital experiences. I use
-                  React and Next JS to create seamless and engaging user
-                  interfaces, leading and contributing to multiple UI projects
-                  for various clients and domains.
-                </div>
-                <div>
                   I have over six years of experience in UI/UX design and
                   development, and I am passionate about leveraging technology
                   to drive innovation and create meaningful impact. I

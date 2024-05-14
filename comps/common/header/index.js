@@ -111,13 +111,14 @@ export default function Header() {
                       href="/figma"
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      Figma
+                      Figma/PS
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
                       className="block py-2 px-3 text-brand md:p-0"
+                      target="_blank"
                     >
                       LinkedIn
                     </Link>
@@ -158,13 +159,14 @@ export default function Header() {
                       onClick={toggleNavbar}
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      Figma
+                      Figma/PS
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
                       className="block py-2 px-3 text-brand md:p-0"
+                      target="_blank"
                     >
                       LinkedIn
                     </Link>
