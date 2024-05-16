@@ -8,7 +8,7 @@ export default function Home() {
           <h1 className="text-left pt-3 md:pt-20 pb-7 md:pb-32 text-xl md:text-2xl font-light leading-8 md:leading-normal">
             UI/UX DESIGNER ︲UI DEVELOPER︲ PORTFOLIO ↓
           </h1>
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-11">
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
             <ProjectPortfolio />
           </div>
         </div>
