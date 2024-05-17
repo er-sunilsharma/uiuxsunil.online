@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header } from "@/comps/common";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="favicon.ico" sizes="any" />
       </head>
       <body className={dm_sans.className}>
+        <SpeedInsights />
         <Header />
         {children}
       </body>
