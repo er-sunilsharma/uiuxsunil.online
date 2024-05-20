@@ -45,24 +45,55 @@ export default function About() {
             </h3>
             <div className="w-full space-y-6 md:space-y-10">
               <div className="space-y-5">
-                <h4 className="text-brand text-2xl font-semibold">General</h4>
-                <ul className="text-lg font-medium leading-9 ml-10 list-disc">
-                  <li>UI UX Designer & UI Developer</li>
-                  <li>HTML5 | JavaScript | Bootstrap</li>
-                  <li>CSS3 | Tailwind CSS</li>
-                  <li>Mockup & Wireframe Design</li>
-                  <li>NextJS, WordPress Knowledge</li>
-                  <li>Web Hosting, MySQL, MongoDB</li>
-                  <li>GitHub, Vercel</li>
+                <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
+                  Design Skills:
+                </h4>
+                <ul className="text-lg font-medium leading-9 grid grid-cols-1 md:grid-cols-3 ml-3">
+                  <li>⦿ UI/UX Design</li>
+                  <li>⦿ UI Developer</li>
+                  <li>⦿ Responsive Design</li>
+                  <li>⦿ Wireframing and Prototyping</li>
+                  <li>⦿ Mobile App UI Design</li>
+                  <li>⦿ User Research</li>
+                  <li>⦿ Systems Design</li>
+                  <li>⦿ Team Leadership</li>
+                  <li>⦿ Project Management</li>
+                  <li>⦿ Developer Hand-off</li>
+                  <li>⦿ Light & Dark UI Design</li>
+                  <li>⦿ User Testing</li>
+                  <li>⦿ HTML5, CSS3</li>
+                  <li>⦿ Tailwind & Bootstrap CSS</li>
+                  <li>⦿ JavaScript</li>
+                  <li>⦿ NextJS Knowledge</li>
+                  <li>⦿ Web Hosting</li>
+                  <li>⦿ MongoDB</li>
+                  <li>⦿ GitHub</li>
+                  <li>⦿ Vercel</li>
                 </ul>
               </div>
               <div className="space-y-5">
-                <h4 className="text-brand text-2xl font-semibold">Design</h4>
-                <ul className="text-lg font-medium leading-9 ml-10 list-disc">
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe XD</li>
-                  <li>Figma</li>
+                <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
+                  Design Tools:
+                </h4>
+                <ul className="text-lg font-medium leading-9 ml-3">
+                  <li>⦿ Figma</li>
+                  <li>⦿ Adobe Photoshop</li>
+                  <li>⦿ Adobe Illustrator</li>
+                  <li>⦿ Adobe XD</li>
+                  <li>⦿ Canva</li>
+                  <li>⦿ etc.</li>
+                </ul>
+              </div>
+              <div className="space-y-5">
+                <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
+                  Prototyping Tools:
+                </h4>
+                <ul className="text-lg font-medium leading-9 ml-3">
+                  <li>⦿ Figma</li>
+                  <li>⦿ Adobe XD </li>
+                  <li>⦿ Marvel Prototyping</li>
+                  <li>⦿ Webflow</li>
+                  <li>⦿ etc.</li>
                 </ul>
               </div>
             </div>
