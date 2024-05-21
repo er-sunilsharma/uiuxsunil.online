@@ -27,7 +27,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className="w-full bg-white">
+      <div className="w-full bg-white border-b border-solid border-gray-100">
         <div className="mx-auto max-w-6xl px-4">
           <nav className="bg-white border-gray-200">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 md:py-9">

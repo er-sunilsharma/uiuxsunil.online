@@ -1,5 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Header } from "@/comps/common";
+import { Footer, Header } from "@/comps/common";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         <SpeedInsights />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
