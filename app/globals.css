@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .zoom_hover {
   transition: 0.2s ease;
 }

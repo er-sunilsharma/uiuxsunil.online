@@ -33,7 +33,7 @@ export default function Header() {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 md:py-9">
               <Link
                 href="/"
-                className="flex items-center space-x-3 rtl:space-x-reverse "
+                className="flex items-center space-x-3 rtl:space-x-reverse bg-white shadow px-2 py-1 rounded-xl"
               >
                 <Image src={logo} alt="Logo" width={34} height={40} priority />
               </Link>
