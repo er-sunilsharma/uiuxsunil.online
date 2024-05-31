@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import about from "public/about-us.jpg";
+import Link from "next/link";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -23,8 +26,8 @@ export default function About() {
               <h2 className="text-brand text-3xl md:text-5xl font-bold">
                 Hi, Im Sunil.
               </h2>
-              <div className="space-y-4 text-base text-dark leading-26">
-                <div>
+              <div className="space-y-4">
+                <div className="text-lg text-brand leading-8">
                   I have over six years of experience in UI/UX design and
                   development, and I am passionate about leveraging technology
                   to drive innovation and create meaningful impact. I
@@ -36,6 +39,32 @@ export default function About() {
                   and opportunities. Let's connect and see how we can make a
                   difference together.
                 </div>
+                <ul className="flex items-center md:justify-start justify-center space-x-4 pt-3 relative">
+                  <li>
+                    <Link
+                      href="https://www.linkedin.com/in/er-sunilsharma/"
+                      target="_blank"
+                      className="inline-block text-center bg-white shadow-lg px-2 py-1 md:px-3 md:py-2"
+                    >
+                      <FaLinkedinIn size={20} className="mx-auto" />
+                      <span className="inline-block w-full pt-2 text-base">
+                        LinkedIn
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://dribbble.com/ersunilsharma"
+                      target="_blank"
+                      className="inline-block text-center bg-white shadow-lg px-2 py-1 md:px-3 md:py-2"
+                    >
+                      <FaDribbble size={18} className="mx-auto" />
+                      <span className="inline-block w-full pt-2 text-base">
+                        Dribbble
+                      </span>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

@@ -103,7 +103,7 @@ export default function Header() {
                       href="/about"
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      About
+                      About Us
                     </Link>
                   </li>
                   <li>
@@ -114,7 +114,7 @@ export default function Header() {
                       Figma/PS
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
                       className="block py-2 px-3 text-brand md:p-0"
@@ -122,13 +122,14 @@ export default function Header() {
                     >
                       LinkedIn
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="https://wa.me/9680024968"
                       className="block py-2 px-3 text-brand md:p-0"
+                      target="_blank"
                     >
-                      Contact
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
@@ -162,7 +163,7 @@ export default function Header() {
                       Figma/PS
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
                       className="block py-2 px-3 text-brand md:p-0"
@@ -170,14 +171,15 @@ export default function Header() {
                     >
                       LinkedIn
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       onClick={toggleNavbar}
                       href="mailto:sharmasunil0968"
                       className="block py-2 px-3 text-brand md:p-0"
+                      target="_blank"
                     >
-                      Contact
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
