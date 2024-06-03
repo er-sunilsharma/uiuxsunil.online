@@ -28,16 +28,14 @@ export default function About() {
               </h2>
               <div className="space-y-4">
                 <div className="text-lg text-brand leading-8">
-                  I have over six years of experience in UI/UX design and
-                  development, and I am passionate about leveraging technology
-                  to drive innovation and create meaningful impact. I
-                  collaborate with diverse teams across the organization,
-                  mentoring and supporting other UI developers, sharing best
-                  practices and feedback, and fostering connections. I am
-                  dedicated to continuous learning and growth in the world of UI
-                  development, and I am always eager to explore new challenges
-                  and opportunities. Let's connect and see how we can make a
-                  difference together.
+                  I’m a Ui/Ux designer & Ui developer with a strong passion of
+                  design strategy, highly resourceful, innovative, and competent
+                  with extensive experience in the UI/UX of Mobile Apps and
+                  Websites, Prototyping, Wireframing, Brainstorming, Empathy
+                  Mapping, Research Interviewing etc. I strive to meet user
+                  needs and behaviors while balancing them with client business
+                  needs. My strengths are my creativity and solving issues that
+                  at first seem impossible.
                 </div>
                 <ul className="flex items-center md:justify-start justify-center space-x-4 pt-3 relative">
                   <li>
