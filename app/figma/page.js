@@ -106,6 +106,42 @@ export default function About() {
                   <span class="pl-4 pr-5 py-2.5 font-medium">PS Design</span>
                 </Link>
               </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">
+                    Branding Designing 2023
+                  </h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.uiuxsunil.online/pdf/BRANDING-DESIGNING-2023.pdf"
+                  class="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span class="px-3.5 py-2 text-white bg-purple-600 group-hover:bg-purple-600 flex items-center justify-center">
+                    <SiAdobephotoshop size={24} />
+                  </span>
+                  <span class="pl-4 pr-5 py-2.5 font-medium">PS Design</span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">
+                    Social Media Portfolio 2023
+                  </h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.uiuxsunil.online/pdf/Social-Media-Portfolio-2023.pdf"
+                  class="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span class="px-3.5 py-2 text-white bg-purple-600 group-hover:bg-purple-600 flex items-center justify-center">
+                    <SiAdobephotoshop size={24} />
+                  </span>
+                  <span class="pl-4 pr-5 py-2.5 font-medium">PS Design</span>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="w-full">
