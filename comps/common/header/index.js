@@ -103,7 +103,7 @@ export default function Header() {
                       href="/about"
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      About Us
+                      About
                     </Link>
                   </li>
                   <li>
@@ -111,7 +111,15 @@ export default function Header() {
                       href="/figma"
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      Figma/PS
+                      Figma
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/photoshop"
+                      className="block py-2 px-3 text-brand md:p-0"
+                    >
+                      Photoshop
                     </Link>
                   </li>
                   {/* <li>
@@ -129,7 +137,7 @@ export default function Header() {
                       className="block py-2 px-3 text-brand md:p-0"
                       target="_blank"
                     >
-                      Contact Us
+                      Contact
                     </Link>
                   </li>
                 </ul>
