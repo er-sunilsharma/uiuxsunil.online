@@ -120,6 +120,22 @@ export default function Photoshop() {
                   <span class="pl-4 pr-5 py-2.5 font-medium">PS Design</span>
                 </Link>
               </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">Nexwiz Logo</h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/mbIT2PZV0GHg4AFcuMcBun/Nexwiz-Logo?node-id=0-1&t=P3T6fiv8PcI6bE6Z-1"
+                  class="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span class="px-3.5 py-2 text-white bg-purple-600 group-hover:bg-purple-600 flex items-center justify-center">
+                    <SiAdobephotoshop size={24} />
+                  </span>
+                  <span class="pl-4 pr-5 py-2.5 font-medium">PS Design</span>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
