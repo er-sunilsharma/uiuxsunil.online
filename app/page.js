@@ -47,7 +47,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
             <ProjectPortfolio />
           </div>
         </div>
