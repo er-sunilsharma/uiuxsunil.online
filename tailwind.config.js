@@ -25,6 +25,7 @@ module.exports = {
         linkedin: "#006699",
         telegram: "#34AADF",
         brandyellow: "#f65a12",
+        linkedin: "rgb(10, 102, 194)",
       },
       lineHeight: {
         26: "26px",

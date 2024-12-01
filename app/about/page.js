@@ -23,29 +23,29 @@ export default function About() {
               />
             </div>
             <div className="w-full space-y-4 px-0 md:px-10">
-              <h2 className="text-brand text-3xl md:text-5xl font-bold">
-                Hi, Im Sunil.
+              <h2 className="text-brand text-3xl md:text-4xl font-bold">
+                Hi, I'm Sunil Sharma
               </h2>
               <div className="space-y-4">
                 <div className="text-lg text-brand leading-8">
-                  I’m a Ui/Ux designer & Ui developer with a strong passion of
-                  design strategy, highly resourceful, innovative, and competent
-                  with extensive experience in the UI/UX of Mobile Apps and
-                  Websites, Prototyping, Wireframing, Brainstorming, Empathy
-                  Mapping, Research Interviewing etc. I strive to meet user
-                  needs and behaviors while balancing them with client business
-                  needs. My strengths are my creativity and solving issues that
-                  at first seem impossible.
+                  Experienced UI/UX Designer with 6+ years of expertise in
+                  crafting user-centered designs that enhance functionality and
+                  satisfaction. Skilled in Product Design, Front & Backend UI
+                  Development, Next.js, wireframing, prototyping, and design
+                  systems. Adept at solving complex design challenges and
+                  managing projects efficiently, delivering innovative solutions
+                  that drive the success of digital products through strategic
+                  thinking and meticulous design.
                 </div>
                 <ul className="flex items-center md:justify-start justify-center space-x-4 pt-3 relative">
                   <li>
                     <Link
                       href="https://www.linkedin.com/in/er-sunilsharma/"
                       target="_blank"
-                      className="inline-block text-center bg-white shadow-lg px-2 py-1 md:px-3 md:py-2"
+                      className="inline-block text-center bg-linkedin text-white shadow-lg px-4 pt-3 pb-2 rounded-lg hover:scale-105 transition-all"
                     >
-                      <FaLinkedinIn size={20} className="mx-auto" />
-                      <span className="inline-block w-full pt-2 text-base">
+                      <FaLinkedinIn size={24} className="mx-auto" />
+                      <span className="inline-block w-full pt-2 text-sm font-medium">
                         LinkedIn
                       </span>
                     </Link>
@@ -54,10 +54,10 @@ export default function About() {
                     <Link
                       href="https://dribbble.com/ersunilsharma"
                       target="_blank"
-                      className="inline-block text-center bg-white shadow-lg px-2 py-1 md:px-3 md:py-2"
+                      className="inline-block text-center bg-black text-white shadow-lg px-4 pt-3 pb-2 rounded-lg hover:scale-105 transition-all"
                     >
-                      <FaDribbble size={18} className="mx-auto" />
-                      <span className="inline-block w-full pt-2 text-base">
+                      <FaDribbble size={22} className="mx-auto" />
+                      <span className="inline-block w-full pt-2 text-sm font-medium">
                         Dribbble
                       </span>
                     </Link>
@@ -73,54 +73,29 @@ export default function About() {
             <div className="w-full space-y-6 md:space-y-10">
               <div className="space-y-5">
                 <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
-                  Design Skills:
+                  Technical Skills & Additional Skills
                 </h4>
                 <ul className="text-lg font-medium leading-9 grid grid-cols-1 md:grid-cols-3 ml-3">
-                  <li>⦿ UI/UX Design</li>
-                  <li>⦿ UI Developer</li>
-                  <li>⦿ Responsive Design</li>
-                  <li>⦿ Wireframing and Prototyping</li>
-                  <li>⦿ Mobile App UI Design</li>
-                  <li>⦿ User Research</li>
-                  <li>⦿ Systems Design</li>
-                  <li>⦿ Team Leadership</li>
-                  <li>⦿ Project Management</li>
-                  <li>⦿ Developer Hand-off</li>
-                  <li>⦿ Light & Dark UI Design</li>
-                  <li>⦿ User Testing</li>
-                  <li>⦿ HTML5, CSS3</li>
-                  <li>⦿ Tailwind & Bootstrap CSS</li>
-                  <li>⦿ JavaScript</li>
-                  <li>⦿ NextJS Knowledge</li>
-                  <li>⦿ Web Hosting</li>
-                  <li>⦿ MongoDB</li>
-                  <li>⦿ GitHub</li>
-                  <li>⦿ Vercel</li>
-                </ul>
-              </div>
-              <div className="space-y-5">
-                <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
-                  Design Tools:
-                </h4>
-                <ul className="text-lg font-medium leading-9 ml-3">
-                  <li>⦿ Figma</li>
                   <li>⦿ Adobe Photoshop</li>
-                  <li>⦿ Adobe Illustrator</li>
-                  <li>⦿ Adobe XD</li>
-                  <li>⦿ Canva</li>
-                  <li>⦿ etc.</li>
-                </ul>
-              </div>
-              <div className="space-y-5">
-                <h4 className="bg-gray-50 inline-block text-brand text-2xl font-semibold">
-                  Prototyping Tools:
-                </h4>
-                <ul className="text-lg font-medium leading-9 ml-3">
-                  <li>⦿ Figma</li>
-                  <li>⦿ Adobe XD </li>
-                  <li>⦿ Marvel Prototyping</li>
-                  <li>⦿ Webflow</li>
-                  <li>⦿ etc.</li>
+                  <li>⦿ Illustrator & Adobe XD</li>
+                  <li>⦿ Figma, Canva</li>
+                  <li>⦿ Wireframing & Prototyping</li>
+                  <li>⦿ Systems Design</li>
+                  <li>⦿ Responsive Design</li>
+                  <li>⦿ Mobile App & Website Design</li>
+                  <li>⦿ HTML5</li>
+                  <li>⦿ CSS, CSS3</li>
+                  <li>⦿ JavaScript</li>
+                  <li>⦿ Next.js</li>
+                  <li>⦿ Tailwind & Bootstrap CSS</li>
+                  <li>⦿ Front & Backend Ui Development</li>
+                  <li>⦿ MongoDB</li>
+                  <li>⦿ GitHub, Vercel</li>
+                  <li>⦿ User Testing</li>
+                  <li>⦿ Web Hosting</li>
+                  <li>⦿ Team Leadership</li>
+                  <li>⦿ Developer Hand-off</li>
+                  <li>⦿ Project Management</li>
                 </ul>
               </div>
             </div>

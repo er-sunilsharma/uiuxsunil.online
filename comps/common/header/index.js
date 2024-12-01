@@ -30,10 +30,10 @@ export default function Header() {
       <div className="w-full bg-white border-b border-solid border-gray-100">
         <div className="mx-auto max-w-6xl px-4">
           <nav className="bg-white border-gray-200">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 md:py-9">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
               <Link
                 href="/"
-                className="flex items-center space-x-3 rtl:space-x-reverse bg-white shadow px-2 py-1 rounded-xl"
+                className="flex items-center space-x-3 rtl:space-x-reverse"
               >
                 <Image src={logo} alt="Logo" width={34} height={40} priority />
               </Link>
@@ -88,11 +88,11 @@ export default function Header() {
                 } w-full md:block md:w-auto fixed h-screen md:relative md:h-auto bg-white inset-0 z-10 flex items-center justify-center`}
                 id="navbar-default"
               >
-                <ul className="hidden md:flex text-base flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-5 md:space-y-0">
+                <ul className="hidden md:flex text-sm flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-5 md:space-y-0">
                   <li>
                     <Link
                       href="/"
-                      className="block py-2 px-3 text-brand md:p-0 font-bold hover:text-blue-600"
+                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
                       aria-current="page"
                     >
                       Home
@@ -101,15 +101,23 @@ export default function Header() {
                   <li>
                     <Link
                       href="/about"
-                      className="block py-2 px-3 text-brand md:p-0"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
                       About
                     </Link>
                   </li>
                   <li>
                     <Link
+                      href="/case-study"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
+                    >
+                      Case Studies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/figma"
-                      className="block py-2 px-3 text-brand md:p-0"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
                       Figma
                     </Link>
@@ -117,27 +125,9 @@ export default function Header() {
                   <li>
                     <Link
                       href="/photoshop"
-                      className="block py-2 px-3 text-brand md:p-0"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
                       Photoshop
-                    </Link>
-                  </li>
-                  {/* <li>
-                    <Link
-                      href="https://www.linkedin.com/in/er-sunilsharma/"
-                      className="block py-2 px-3 text-brand md:p-0"
-                      target="_blank"
-                    >
-                      LinkedIn
-                    </Link>
-                  </li> */}
-                  <li>
-                    <Link
-                      href="https://wa.me/9680024968"
-                      className="block py-2 px-3 text-brand md:p-0"
-                      target="_blank"
-                    >
-                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -164,30 +154,29 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
+                      href="/case-study"
+                      onClick={toggleNavbar}
+                      className="block py-2 px-3 text-brand md:p-0"
+                    >
+                      Case Studies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/figma"
                       onClick={toggleNavbar}
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      Figma/PS
+                      Figma
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link
-                      href="https://www.linkedin.com/in/er-sunilsharma/"
-                      className="block py-2 px-3 text-brand md:p-0"
-                      target="_blank"
-                    >
-                      LinkedIn
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
+                      href="/photoshop"
                       onClick={toggleNavbar}
-                      href="mailto:sharmasunil0968"
                       className="block py-2 px-3 text-brand md:p-0"
-                      target="_blank"
                     >
-                      Contact Us
+                      Photoshop
                     </Link>
                   </li>
                 </ul>

@@ -34,11 +34,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/cheersagar"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Cheer Sagar
           </Link>
@@ -63,11 +63,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/synarionit"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Synarion IT Solutions
           </Link>
@@ -92,11 +92,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/ludoapp"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Ludo Classic
           </Link>
@@ -121,11 +121,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/bharatiyapashupalan"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Bhartiya Pashupalan
           </Link>
@@ -148,13 +148,13 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/c2creview"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
-            C2Creview
+            C2C Review
           </Link>
           <h3 className="text-left text-brand text-sm">
             UI/UX DESIGNING︲ UX RESEARCH
@@ -177,11 +177,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/famous11"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Famous11 Fantasy Cricket
           </Link>
@@ -206,11 +206,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/fun2048"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Fun 2048
           </Link>
@@ -235,11 +235,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/thejohribazar"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             The Johri Bazar
           </Link>
@@ -264,11 +264,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/choic11"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Choic11: Fantasy Cricket
           </Link>
@@ -291,11 +291,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/webfity"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Webfity | Website Builder
           </Link>
@@ -320,11 +320,11 @@ export default function ProjectPortfolio() {
             priority
           />
         </Link>
-        <div className="space-y-2 md:space-y-3 px-5 pb-5">
+        <div className="space-y-2 px-5 pb-5">
           <Link
             href="/boom11"
             rel="nofollow"
-            className="text-xl md:text-2xl text-brand font-bold"
+            className="text-xl text-brand font-bold"
           >
             Boom11 Fantasy App
           </Link>
