@@ -41,6 +41,17 @@ export default function Boom11() {
                   new era of your favorite games and allows you to participate
                   in real-time cricket fantasy sports.
                 </p>
+                <div className="inline-block w-full">
+                  <span className="pr-1 inline-block">www.</span>
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=com.boom11.fantasy"
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-blue-700 underline"
+                  >
+                    boom11
+                  </Link>
+                </div>
               </div>
               <div className="w-full relative">
                 <Image
@@ -141,7 +152,7 @@ export default function Boom11() {
           </Carousel>
         </div>
 
-        <div className="bg-white py-12 md:py-24">
+        <div className="bg-white pt-12 pb-6 md:pt-24 md:pb-16">
           <div className="mx-auto max-w-6xl px-4">
             <div className="mx-auto w-full md:w-2/3 space-y-10 md:space-y-24">
               <div className="space-y-4 md:space-y-5">
@@ -185,30 +196,6 @@ export default function Boom11() {
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-gray-50 py-8 md:py-16">
-          <div className="mx-auto max-w-6xl px-4">
-            <div className="mx-auto w-full md:w-2/3 space-y-4 md:space-y-5 text-center">
-              <h3 className="text-2xl md:text-3xl text-gray-800 font-semibold">
-                View the Live Site
-              </h3>
-              <div className="text-lg md:text-base leading-8 md:leading-7 md:font-normal text-gray-700">
-                Discover the enhanced educational journey firsthand at{" "}
-                <Link
-                  href="https://play.google.com/store/apps/details?id=com.boom11.fantasy"
-                  target="_blank"
-                  rel="nofollow"
-                  className="text-blue-700 underline"
-                >
-                  boom11
-                </Link>
-                . Explore the revamped site to delve into the science of deep
-                touch pressure, bolster brand recognition, and effortlessly
-                navigate through all product features. Experience the
-                transformation today!
               </div>
             </div>
           </div>

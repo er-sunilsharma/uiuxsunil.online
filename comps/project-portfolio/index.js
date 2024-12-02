@@ -78,35 +78,6 @@ export default function ProjectPortfolio() {
       </div>
       <div className="w-full shadow-lg">
         <Link
-          href="/ludoapp"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
-        >
-          <Image
-            src={ludoapp}
-            alt="ludoapp"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/ludoapp"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            Ludo Classic
-          </Link>
-          <h3 className="text-left text-brand text-sm">
-            APP DESIGNING ︲ APP UX RESEARCH
-          </h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg">
-        <Link
           href="/bharatiyapashupalan"
           rel="nofollow"
           className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
@@ -163,6 +134,64 @@ export default function ProjectPortfolio() {
       </div>
       <div className="w-full shadow-lg">
         <Link
+          href="/thejohribazar"
+          rel="nofollow"
+          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+        >
+          <Image
+            src={thejohribazar}
+            alt="thejohribazar"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto"
+            priority
+          />
+        </Link>
+        <div className="space-y-2 px-5 pb-5">
+          <Link
+            href="/thejohribazar"
+            rel="nofollow"
+            className="text-xl text-brand font-bold"
+          >
+            The Johri Bazar
+          </Link>
+          <h3 className="text-left text-brand text-sm">
+            UX DESIGNING︲ UI DEVELOPMENT
+          </h3>
+        </div>
+      </div>
+      <div className="w-full shadow-lg">
+        <Link
+          href="/webfity"
+          rel="nofollow"
+          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+        >
+          <Image
+            src={webfity}
+            alt="webfity"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto"
+            priority
+          />
+        </Link>
+        <div className="space-y-2 px-5 pb-5">
+          <Link
+            href="/webfity"
+            rel="nofollow"
+            className="text-xl text-brand font-bold"
+          >
+            Webfity | Website Builder
+          </Link>
+          <h3 className="text-left text-brand text-sm">
+            UX DESIGNING︲UI DEVELOPMENT
+          </h3>
+        </div>
+      </div>
+      <div className="w-full shadow-lg">
+        <Link
           href="/famous11"
           rel="nofollow"
           className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
@@ -184,6 +213,35 @@ export default function ProjectPortfolio() {
             className="text-xl text-brand font-bold"
           >
             Famous11 Fantasy Cricket
+          </Link>
+          <h3 className="text-left text-brand text-sm">
+            APP DESIGNING ︲ APP UX RESEARCH
+          </h3>
+        </div>
+      </div>
+      <div className="w-full shadow-lg">
+        <Link
+          href="/ludoapp"
+          rel="nofollow"
+          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+        >
+          <Image
+            src={ludoapp}
+            alt="ludoapp"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto"
+            priority
+          />
+        </Link>
+        <div className="space-y-2 px-5 pb-5">
+          <Link
+            href="/ludoapp"
+            rel="nofollow"
+            className="text-xl text-brand font-bold"
+          >
+            Ludo Classic
           </Link>
           <h3 className="text-left text-brand text-sm">
             APP DESIGNING ︲ APP UX RESEARCH
@@ -221,35 +279,6 @@ export default function ProjectPortfolio() {
       </div>
       <div className="w-full shadow-lg">
         <Link
-          href="/thejohribazar"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
-        >
-          <Image
-            src={thejohribazar}
-            alt="thejohribazar"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/thejohribazar"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            The Johri Bazar
-          </Link>
-          <h3 className="text-left text-brand text-sm">
-            UX DESIGNING︲ UI DEVELOPMENT
-          </h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg">
-        <Link
           href="/choic11"
           rel="nofollow"
           className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
@@ -273,35 +302,6 @@ export default function ProjectPortfolio() {
             Choic11: Fantasy Cricket
           </Link>
           <h3 className="text-left text-brand text-sm">APP DESIGNING</h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg">
-        <Link
-          href="/webfity"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
-        >
-          <Image
-            src={webfity}
-            alt="webfity"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/webfity"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            Webfity | Website Builder
-          </Link>
-          <h3 className="text-left text-brand text-sm">
-            UX DESIGNING︲UI DEVELOPMENT
-          </h3>
         </div>
       </div>
       <div className="w-full shadow-lg">

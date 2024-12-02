@@ -6,7 +6,7 @@ import mockupdesktop from "public/mockup--desktop--browser--light--rounded.svg";
 import mainview from "public/c2creview/main_view.png";
 import Link from "next/link";
 
-export default function c2creview() {
+export default function C2CReview() {
   return (
     <>
       <div className="w-full bg-white">
@@ -22,6 +22,17 @@ export default function c2creview() {
                   services to boost up the reputation of your companies or earn
                   more ROI.
                 </p>
+                <div className="inline-block w-full">
+                  <span className="pr-1 inline-block">www.</span>
+                  <Link
+                    href="https://c2creview.co/"
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-blue-700 underline"
+                  >
+                    c2creview.co
+                  </Link>
+                </div>
               </div>
               <div className="w-full relative shadow-xl">
                 <div className="absolute inset-0 z-10 h-945 w-998 mt-04">
@@ -91,7 +102,7 @@ export default function c2creview() {
           />
         </div>
 
-        <div className="bg-white py-12 md:py-24">
+        <div className="bg-white pt-12 pb-6 md:pt-24 md:pb-16">
           <div className="mx-auto max-w-6xl px-4">
             <div className="mx-auto w-full md:w-2/3 space-y-10 md:space-y-24">
               <div className="space-y-4 md:space-y-5">
@@ -133,30 +144,6 @@ export default function c2creview() {
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-gray-50 py-8 md:py-16">
-          <div className="mx-auto max-w-6xl px-4">
-            <div className="mx-auto w-full md:w-2/3 space-y-4 md:space-y-5 text-center">
-              <h3 className="text-2xl md:text-3xl text-gray-800 font-semibold">
-                View the Live Site
-              </h3>
-              <div className="text-lg md:text-base leading-8 md:leading-7 md:font-normal text-gray-700">
-                Discover the enhanced educational journey firsthand at{" "}
-                <Link
-                  href="https://c2creview.co/"
-                  target="_blank"
-                  rel="nofollow"
-                  className="text-blue-700 underline"
-                >
-                  c2creview.co
-                </Link>
-                . Explore the revamped site to delve into the science of deep
-                touch pressure, bolster brand recognition, and effortlessly
-                navigate through all product features. Experience the
-                transformation today!
               </div>
             </div>
           </div>

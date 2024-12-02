@@ -25,9 +25,32 @@ export default function Header() {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+  // active class
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className="w-full bg-white border-b border-solid border-gray-100">
+      <div
+        className={`w-full border-b border-solid bg-white border-gray-100 transition-all z-10 duration-300 ${
+          isScrolled ? "fixed shadow-lg" : "relative"
+        }`}
+      >
         <div className="mx-auto max-w-6xl px-4">
           <nav className="bg-white border-gray-200">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
@@ -100,10 +123,10 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/ui-ux-design"
                       className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
-                      About
+                      Ui/Ux Design
                     </Link>
                   </li>
                   <li>
@@ -114,24 +137,7 @@ export default function Header() {
                       Case Studies
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/figma"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
-                    >
-                      Figma
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/photoshop"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
-                    >
-                      Photoshop
-                    </Link>
-                  </li>
                 </ul>
-
                 <ul className="flex md:hidden text-base flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-5 md:space-y-0">
                   <li>
                     <Link
@@ -145,11 +151,11 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/ui-ux-design"
                       onClick={toggleNavbar}
                       className="block py-2 px-3 text-brand md:p-0"
                     >
-                      About
+                      Ui/Ux Design
                     </Link>
                   </li>
                   <li>
@@ -159,24 +165,6 @@ export default function Header() {
                       className="block py-2 px-3 text-brand md:p-0"
                     >
                       Case Studies
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/figma"
-                      onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0"
-                    >
-                      Figma
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/photoshop"
-                      onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0"
-                    >
-                      Photoshop
                     </Link>
                   </li>
                 </ul>

@@ -26,6 +26,8 @@ module.exports = {
         telegram: "#34AADF",
         brandyellow: "#f65a12",
         linkedin: "rgb(10, 102, 194)",
+        "photoshop-color": "#011e37",
+        "photoshop-text": "#2ea2f7",
       },
       lineHeight: {
         26: "26px",
