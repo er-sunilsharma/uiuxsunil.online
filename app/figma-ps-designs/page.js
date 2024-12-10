@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LuFigma } from "react-icons/lu";
 import { SiAdobephotoshop } from "react-icons/si";
 
-export default function UiUxDesign() {
+export default function FigmaPsDesigns() {
   return (
     <>
       <div className="w-full bg-gray-50 pt-4 md:pt-20 pb-10 md:pb-20">

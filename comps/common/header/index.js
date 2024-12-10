@@ -115,7 +115,7 @@ export default function Header() {
                   <li>
                     <Link
                       href="/"
-                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
+                      className="block py-2 px-3 text-black md:p-0 font-medium hover:text-red-700 uppercase"
                       aria-current="page"
                     >
                       Home
@@ -123,16 +123,16 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/ui-ux-design"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
+                      href="/figma-ps-designs"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-medium"
                     >
-                      Ui/Ux Design
+                      Figma/PS Designs
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/case-study"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-medium"
                     >
                       Case Studies
                     </Link>
@@ -143,7 +143,7 @@ export default function Header() {
                     <Link
                       href="/"
                       onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0 font-bold hover:text-blue-600"
+                      className="block py-2 px-3 text-brand md:p-0 font-semibold hover:text-blue-600"
                       aria-current="page"
                     >
                       Home
@@ -151,18 +151,18 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/ui-ux-design"
+                      href="/figma-ps-designs"
                       onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0"
+                      className="block py-2 px-3 font-semibold text-brand md:p-0"
                     >
-                      Ui/Ux Design
+                      Figma/PS Designs
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/case-study"
                       onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0"
+                      className="block py-2 px-3 font-semibold text-brand md:p-0"
                     >
                       Case Studies
                     </Link>
