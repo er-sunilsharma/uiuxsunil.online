@@ -20,6 +20,9 @@ module.exports = {
       inset: {
         42: "42px",
       },
+      scale: {
+        103: "1.03",
+      },
       colors: {
         brand: "#424242",
         dark: "#586165",
@@ -36,6 +39,7 @@ module.exports = {
       height: {
         945: "94.5%",
         33: "33px",
+        0.7: "3px",
       },
       width: {
         998: "99.8%",

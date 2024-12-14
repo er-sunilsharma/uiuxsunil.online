@@ -22,7 +22,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/cheersagar"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={cheersagar}
@@ -30,7 +30,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -51,7 +51,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/synarionit"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={synarionit}
@@ -59,7 +59,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -80,7 +80,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/bharatiyapashupalan"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={bharatiyapashupalan}
@@ -88,7 +88,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -107,7 +107,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/c2creview"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={c2creview}
@@ -115,7 +115,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -136,7 +136,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/thejohribazar"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={thejohribazar}
@@ -144,7 +144,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -165,7 +165,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/webfity"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={webfity}
@@ -173,7 +173,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -194,7 +194,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/famous11"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={famous11}
@@ -202,7 +202,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -223,7 +223,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/ludoapp"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={ludoapp}
@@ -231,7 +231,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -252,7 +252,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/fun2048"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={fun2048}
@@ -260,7 +260,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -281,7 +281,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/choic11"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={choic11}
@@ -289,7 +289,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>
@@ -308,7 +308,7 @@ export default function ProjectPortfolio() {
         <Link
           href="/boom11"
           rel="nofollow"
-          className="mb-3 md:mb-4 block zoom_hover overflow-hidden"
+          className="mb-3 md:mb-4 block overflow-hidden"
         >
           <Image
             src={boom11}
@@ -316,7 +316,7 @@ export default function ProjectPortfolio() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
             priority
           />
         </Link>

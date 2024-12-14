@@ -25,7 +25,7 @@ export default function Home() {
                 <Link
                   href="https://www.linkedin.com/in/er-sunilsharma/"
                   target="_blank"
-                  className="inline-block text-center bg-linkedin text-white shadow-lg px-4 pt-3 pb-2 rounded-lg hover:scale-105 transition-all"
+                  className="inline-block text-center bg-linkedin text-white shadow-lg px-4 pt-3 pb-2 rounded-xl hover:scale-105 transition-all"
                 >
                   <FaLinkedinIn size={24} className="mx-auto" />
                   <span className="inline-block w-full pt-2 text-sm font-medium">
@@ -37,7 +37,7 @@ export default function Home() {
                 <Link
                   href="https://dribbble.com/ersunilsharma"
                   target="_blank"
-                  className="inline-block text-center bg-black text-white shadow-lg px-4 pt-3 pb-2 rounded-lg hover:scale-105 transition-all"
+                  className="inline-block text-center bg-black text-white shadow-lg px-4 pt-3 pb-2 rounded-xl hover:scale-105 transition-all"
                 >
                   <FaDribbble size={22} className="mx-auto" />
                   <span className="inline-block w-full pt-2 text-sm font-medium">
