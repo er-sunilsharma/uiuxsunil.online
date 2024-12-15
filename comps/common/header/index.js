@@ -140,10 +140,10 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/case-study"
+                      href="/system-design"
                       className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-medium"
                     >
-                      Case Studies
+                      System Design
                     </Link>
                   </li>
                 </ul>
@@ -179,11 +179,11 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/case-study"
+                      href="/system-design"
                       onClick={toggleNavbar}
                       className="block py-2 px-3 font-semibold text-brand md:p-0"
                     >
-                      Case Studies
+                      System Design
                     </Link>
                   </li>
                 </ul>
