@@ -48,6 +48,9 @@ module.exports = {
       margin: {
         "04": "4%",
       },
+      borderRadius: {
+        "5xl": "84px",
+      },
     },
   },
   plugins: [],

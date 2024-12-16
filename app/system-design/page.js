@@ -13,7 +13,7 @@ export default function SystemDesign() {
       <div className="w-full bg-gray-50 pt-4 md:pt-20 pb-10 md:pb-20">
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 items-center">
-            <div className="w-full bg-white rounded-2xl overflow-hidden text-center shadow-2xl">
+            <div className="w-full bg-white rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-3xl overflow-hidden text-center shadow-2xl">
               <Image
                 src={systemdesign}
                 alt="system-design"
@@ -37,13 +37,14 @@ export default function SystemDesign() {
                   design system.
                 </p>
                 <Link
-                  href="#"
-                  class="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                  target="blank"
+                  href="https://www.figma.com/proto/tm5UCxauFHvj9EZrazFHls/My-System-Design?page-id=0%3A1&node-id=15-2839&p=f&viewport=1113%2C578%2C0.06&t=o2aFMz9jL9mch3XP-1&scaling=min-zoom&content-scaling=fixed"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
-                  <span class="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                  <span className="px-3.5 py-2 text-white bg-blue-600 flex items-center justify-center">
                     <LuFigma size={24} />
                   </span>
-                  <span class="pl-4 pr-5 py-2.5 font-medium">
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
                     Figma Design{" "}
                   </span>
                 </Link>
@@ -52,10 +53,6 @@ export default function SystemDesign() {
           </div>
           <div className="w-full pt-7 md:pt-12">
             <ul className="w-full grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-4 text-15 md:text-base font-semibold">
-              <li className="flex items-center space-x-2 bg-white py-2 px-3 rounded-lg shadow-sm">
-                <IoCheckmarkCircleOutline size={20} className="text-blue-600" />
-                <span>Titles</span>
-              </li>
               <li className="flex items-center space-x-2 bg-white py-2 px-3 rounded-lg shadow-sm">
                 <IoCheckmarkCircleOutline size={20} className="text-blue-600" />
                 <span>List</span>
