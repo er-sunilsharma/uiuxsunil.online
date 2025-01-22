@@ -10,14 +10,12 @@ export default function FigmaPsDesigns() {
         <div className="mx-auto max-w-6xl px-4 space-y-10 md:space-y-14">
           <div className="w-full">
             <div className="w-full up text-2xl font-semibold pb-5 md:pb-10">
-              Application Design
+              Mobile App Design
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">
-                    Evidence Students Mobile App
-                  </h2>
+                  <h2 className="text-lg font-medium">Student Evidence App</h2>
                 </div>
                 <Link
                   target="_blank"
@@ -42,7 +40,7 @@ export default function FigmaPsDesigns() {
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/proto/IhwObTdps693GzqwZ8QEqy/Super-Kirana-App-Dashboard?page-id=0%3A1&node-id=12-95&starting-point-node-id=12%3A95&t=uOn0p8VNhIh8dPxu-1"
+                  href="https://www.figma.com/design/IhwObTdps693GzqwZ8QEqy/Super-Kirana-App-Dashboard?node-id=0-1&t=qAGX7hNW2x6lEwkC-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
@@ -109,31 +107,33 @@ export default function FigmaPsDesigns() {
                   </span>
                 </Link>
               </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">OneDay Delivery App</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://drive.google.com/drive/folders/15a_3NZV1dQJeRHNDQe09X-TmSkVCDsr3?usp=sharing"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-photoshop-text bg-photoshop-color border-r border-white border-solid border-opacity-25 flex items-center justify-center">
-                    <SiAdobephotoshop size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    PS Design
-                  </span>
-                </Link>
-              </div>
             </div>
           </div>
           <div className="w-full">
             <div className="w-full text-2xl font-semibold pb-5 md:pb-10">
-              Template Design
+              Dashboard & Website Design
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">
+                    iProfit Dashboard Dark & Light
+                  </h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/WcFVpo0FLJ30OIBLqYBKFU/iProfit-Dashboard?node-id=0-1&t=HPBxzI57EIQ70bZa-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">
@@ -143,7 +143,7 @@ export default function FigmaPsDesigns() {
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/proto/FSIl07pxhUVORFVC1hbo4n/BDA-Media?page-id=0%3A1&node-id=142-160&viewport=0%2C500%2C0.13&t=I6Um0lTJi3oTD6Tx-1&scaling=min-zoom&content-scaling=fixed"
+                  href="https://www.figma.com/design/FSIl07pxhUVORFVC1hbo4n/BDA-Media"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
@@ -176,24 +176,6 @@ export default function FigmaPsDesigns() {
               </div>
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Webfity Website</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/proto/5n5sceNtsevDGNYmBpNjBC/Figma-the-collaborative-interface-design-tool-?page-id=0%3A1&node-id=2101-2&node-type=canvas&viewport=934%2C-722%2C0.11&t=T3ZdjkLtCfprAQ2U-1&scaling=min-zoom&content-scaling=fixed"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
-                    <LuFigma size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    Figma Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">
                     Braf Accident Attorney
                   </h2>
@@ -201,25 +183,7 @@ export default function FigmaPsDesigns() {
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/proto/oStbKGgfs1vMqYbRc7LbEK/braffaccidentattorney?page-id=0%3A1&node-id=6-2&node-type=canvas&viewport=477%2C-748%2C1&t=sUjDBT98wxJkGig5-1&scaling=min-zoom&content-scaling=fixed"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
-                    <LuFigma size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    Figma Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">BdaCorp Mobile Layout</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/proto/GO10O7Ff3JOE5VALAa83ia/Visa-Mobile-Lending-Page-3?page-id=0%3A1&node-id=202-207&node-type=canvas&viewport=458%2C1466%2C0.18&t=XVdaDnDTHxkp9pWT-1&scaling=min-zoom&content-scaling=fixed"
+                  href="https://www.figma.com/design/oStbKGgfs1vMqYbRc7LbEK/braffaccidentattorney?node-id=0-1&t=VDXxl0YvlkvtdxAv-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
@@ -300,14 +264,50 @@ export default function FigmaPsDesigns() {
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/proto/Hg123e1qPfhPiMw5xIgueL/BDA-Corp-Logo?page-id=0%3A1&node-id=1-2&viewport=658%2C511%2C1&t=seO6TuZD8oejTWXV-1&scaling=min-zoom&content-scaling=fixed"
+                  href="https://www.figma.com/design/Hg123e1qPfhPiMw5xIgueL/BDA-Corp-Logo?node-id=0-1&t=5VVUnLeAWLOA2Hkm-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
-                  <span className="px-3.5 py-2 text-photoshop-text bg-photoshop-color border-r border-white border-solid border-opacity-25 flex items-center justify-center">
-                    <SiAdobephotoshop size={24} />
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
                   </span>
                   <span className="pl-4 pr-5 py-2.5 font-medium">
-                    PS Design
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">Cuccu Logo</h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/TOo1C0MtxkTWnetWCOKJao/Cuccu-Logo-Design?node-id=0-1&t=0TOOPNGU3hXQFqGj-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">Nexwiz Logo</h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/mbIT2PZV0GHg4AFcuMcBun/Nexwiz-Logo?node-id=0-1&t=8mhpbYvkXVrcH7FI-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
                   </span>
                 </Link>
               </div>
@@ -319,42 +319,6 @@ export default function FigmaPsDesigns() {
                   target="_blank"
                   rel="nofollow"
                   href="https://www.figma.com/proto/vBkHYpaZI0SIvtYwYP3RED/BdaTrip-Logo?page-id=0%3A1&node-id=1-13&viewport=413%2C483%2C0.69&t=BmB80v7Y1NASvEK1-1&scaling=contain&content-scaling=fixed"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-photoshop-text bg-photoshop-color border-r border-white border-solid border-opacity-25 flex items-center justify-center">
-                    <SiAdobephotoshop size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    PS Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Cuccu Logo</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/proto/TOo1C0MtxkTWnetWCOKJao/Cuccu-Logo-Design?page-id=0%3A1&node-id=1-4&t=7tK8D2xoOjlue73P-1"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-photoshop-text bg-photoshop-color border-r border-white border-solid border-opacity-25 flex items-center justify-center">
-                    <SiAdobephotoshop size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    PS Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Nexwiz Logo</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/design/mbIT2PZV0GHg4AFcuMcBun/Nexwiz-Logo?node-id=0-1&t=P3T6fiv8PcI6bE6Z-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-photoshop-text bg-photoshop-color border-r border-white border-solid border-opacity-25 flex items-center justify-center">
