@@ -14,6 +14,7 @@ import choic11 from "public/choic11.png";
 import bharatiyapashupalan from "public/bharatiyapashupalan.png";
 import webfity from "public/webfity.png";
 import boom11 from "public/boom11.png";
+import monafy from "public/monafy.png";
 
 export default function ProjectPortfolio() {
   return (
@@ -188,6 +189,35 @@ export default function ProjectPortfolio() {
           <h3 className="text-left text-brand text-sm">
             UX DESIGNING︲UI DEVELOPMENT
           </h3>
+        </div>
+      </div>
+      <div className="w-full shadow-lg">
+        <Link
+          href="https://monafy.com/"
+          target="_blank"
+          rel="nofollow"
+          className="mb-3 md:mb-4 block overflow-hidden"
+        >
+          <Image
+            src={monafy}
+            alt="famous11"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
+            priority
+          />
+        </Link>
+        <div className="space-y-2 px-5 pb-5">
+          <Link
+            href="https://monafy.com/"
+            target="_blank"
+            rel="nofollow"
+            className="text-xl text-brand font-bold"
+          >
+            Monafy Online Shopping
+          </Link>
+          <h3 className="text-left text-brand text-sm">Next.js ︲ REST APIs</h3>
         </div>
       </div>
       <div className="w-full shadow-lg">
