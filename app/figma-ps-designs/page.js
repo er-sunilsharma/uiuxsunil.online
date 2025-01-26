@@ -15,6 +15,24 @@ export default function FigmaPsDesigns() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">BeepShop App</h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/dQgpYZeA81PnNDg4v53ODt/beepshop-e-commerce-app?node-id=0-1&t=9KHXrOoLa1TboHo4-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">Student Evidence App</h2>
                 </div>
                 <Link
@@ -217,24 +235,6 @@ export default function FigmaPsDesigns() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Shadow Bazaar Logo</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/design/RHflUaWdB4dzZC0f1FnxmQ/ShadowBazaar-Logo?node-id=0-1&t=ztTZo9VVfxVzyDb2-1"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
-                    <LuFigma size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    Figma Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">BDA Corp Logo</h2>
                 </div>
                 <Link
@@ -271,12 +271,12 @@ export default function FigmaPsDesigns() {
               </div>
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Nexwiz Logo</h2>
+                  <h2 className="text-lg font-medium">Shadow Bazaar Logo</h2>
                 </div>
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/design/mbIT2PZV0GHg4AFcuMcBun/Nexwiz-Logo?node-id=0-1&t=8mhpbYvkXVrcH7FI-1"
+                  href="https://www.figma.com/design/RHflUaWdB4dzZC0f1FnxmQ/ShadowBazaar-Logo?node-id=0-1&t=ztTZo9VVfxVzyDb2-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">

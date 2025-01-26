@@ -10,15 +10,17 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4">
           <div className="w-full space-y-3 md:space-y-7 pt-2 md:pt-16 pb-7 md:pb-20">
             <h1 className="text-3xl md:text-40 font-bold">Hi, I'm Sunil</h1>
-            <p className="leading-7 md:leading-8 text-base md:text-lg">
-              Experienced UI/UX Designer with 6+ years of expertise in crafting
-              user-centered designs that enhance functionality and satisfaction.
-              Skilled in Product Design, Front & Backend UI Development,
-              Next.js, wireframing, prototyping, and design systems. Adept at
-              solving complex design challenges and managing projects
-              efficiently, delivering innovative solutions that drive the
-              success of digital products through strategic thinking and
-              meticulous design.
+            <p className="leading-7 text-base">
+              Experienced Senior UI/UX Designer with 7+ years of delivering
+              user-centered digital solutions for web and mobile platforms.
+              Proficient in Figma, Adobe XD, and Next.js, with expertise in
+              wireframing, prototyping, and responsive design. Specializes in
+              user research, design systems, and creating accessible designs for
+              outstanding user experiences. Proficient in turning complex
+              requirements into clear, visually engaging designs that optimize
+              usability and foster user engagement. Strong collaborator with
+              cross-functional teams to ensure the timely delivery of
+              top-quality products.
             </p>
             <ul className="flex items-center justify-start space-x-4 pt-3 relative">
               <li>
