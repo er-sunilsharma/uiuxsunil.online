@@ -114,12 +114,14 @@ export default function FigmaPsDesigns() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">iProfit Web Dashboard</h2>
+                  <h2 className="text-lg font-medium">
+                    HPulse Health Dashboard
+                  </h2>
                 </div>
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/design/WcFVpo0FLJ30OIBLqYBKFU/iProfit-Web-Dashboard?node-id=0-1&t=ZK2RSxPvnfILl45q-1"
+                  href="https://www.figma.com/design/WcFVpo0FLJ30OIBLqYBKFU/HPulse-Health-Dashboard?node-id=0-1&t=xYIzFLWgLMcXzQjJ-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
