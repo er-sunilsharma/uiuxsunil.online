@@ -115,7 +115,7 @@ export default function Header() {
                   <li>
                     <Link
                       href="/"
-                      className="block py-2 px-3 text-black md:p-0 font-medium hover:text-red-700 uppercase"
+                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
                       aria-current="page"
                     >
                       Home
@@ -124,7 +124,7 @@ export default function Header() {
                   <li>
                     <Link
                       href="/about"
-                      className="block py-2 px-3 text-black md:p-0 font-medium hover:text-red-700 uppercase"
+                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
                       aria-current="page"
                     >
                       About US
@@ -133,7 +133,7 @@ export default function Header() {
                   <li>
                     <Link
                       href="/figma-ps-designs"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-medium"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
                       Figma/PS Designs
                     </Link>
@@ -141,7 +141,7 @@ export default function Header() {
                   <li>
                     <Link
                       href="/system-design"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-medium"
+                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
                       System Design
                     </Link>
