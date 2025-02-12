@@ -10,9 +10,9 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 export default function SystemDesign() {
   return (
     <>
-      <div className="w-full bg-gray-50 pt-4 md:pt-20 pb-10 md:pb-20">
+      <div className="w-full bg-gray-50 pt-4 md:pt-12 pb-10 md:pb-16">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-5 md:gap-10 items-center">
             <div className="w-full bg-white rounded-xl overflow-hidden text-center shadow-2xl">
               <Image
                 src={systemdesign}
@@ -25,17 +25,72 @@ export default function SystemDesign() {
             </div>
             <div className="w-full space-y-10">
               <div className="w-full space-y-3 md:space-y-4">
-                <h2 className="text-2xl md:text-4xl text-black font-bold">
-                  Design System
+                <h2 className="text-2xl md:text-3xl text-black font-bold">
+                  Design System: A Unified Approach to UI Components
                 </h2>
                 <p className="text-base text-gray-600 leading-7">
-                  A Design System is a comprehensive set of reusable components,
-                  patterns, and guidelines that promote consistency, efficiency,
-                  and scalability across digital products. It ensures a cohesive
-                  user experience, regardless of the platform or device. Below
-                  is an overview of the various elements that make up a typical
-                  design system.
+                  A Design System is a structured collection of reusable UI
+                  components, patterns, and guidelines that ensure consistency,
+                  efficiency, and scalability across digital products. It acts
+                  as a single source of truth for designers and developers,
+                  enhancing user experience across different platforms and
+                  devices.
                 </p>
+                <div className="space-y-4 pb-3">
+                  <h3 className="font-bold text-xl text-red-700">
+                    Core Elements of the Design System:
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-center justify-start space-x-2 text-base text-black">
+                      <span className="text-red-700">✔</span>
+                      <p>
+                        <strong className="text-red-700">
+                          Navigation & Layout
+                        </strong>
+                        – Navbar (Top & Bottom), Breadcrumbs, Page Control,
+                        Pagination.
+                      </p>
+                    </li>
+                    <li className="flex items-center justify-start space-x-2 text-base text-black">
+                      <span className="text-red-700">✔</span>
+                      <p>
+                        <strong className="text-red-700">
+                          Interactive Elements
+                        </strong>
+                        – Buttons, Button Groups, Toggle, Radio, Checkbox,
+                        Dropdown, Stepper, Tab, Context Menu, Action Sheet.
+                      </p>
+                    </li>
+                    <li className="flex items-center justify-start space-x-2 text-base text-black">
+                      <span className="text-red-700">✔</span>
+                      <p>
+                        <strong className="text-red-700">
+                          Feedback & Alerts
+                        </strong>
+                        – Alerts, Pop-ups, Progress Bars, Loaders, Tooltips.
+                      </p>
+                    </li>
+                    <li className="flex items-center justify-start space-x-2 text-base text-black">
+                      <span className="text-red-700">✔</span>
+                      <p>
+                        <strong className="text-red-700">
+                          Visual & Styling
+                        </strong>
+                        – Fonts, Typography, Icons, Colors, Shadow, Badge &
+                        Chip, Avatar.
+                      </p>
+                    </li>
+                    <li className="flex items-center justify-start space-x-2 text-base text-black">
+                      <span className="text-red-700">✔</span>
+                      <p>
+                        <strong className="text-red-700">
+                          Cards & Containers
+                        </strong>
+                        – Card Components for structured layouts.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
                 <Link
                   target="_blank"
                   rel="nofollow"
@@ -53,7 +108,7 @@ export default function SystemDesign() {
             </div>
           </div>
           <div className="w-full pt-7 md:pt-12">
-            <ul className="w-full grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-4 text-15 md:text-base font-semibold">
+            <ul className="w-full grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 text-15 md:text-base font-semibold">
               <li className="flex items-center space-x-2 bg-white py-2 px-3 rounded-lg shadow-sm">
                 <IoCheckmarkCircleOutline size={20} className="text-blue-600" />
                 <span>List</span>

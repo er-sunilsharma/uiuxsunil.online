@@ -9,10 +9,10 @@ export default function FigmaPsDesigns() {
       <div className="w-full bg-gray-50 pt-4 md:pt-16 pb-10 md:pb-20">
         <div className="mx-auto max-w-6xl px-4 space-y-10 md:space-y-14">
           <div className="w-full">
-            <div className="w-full up text-2xl font-semibold pb-5 md:pb-10">
+            <div className="w-full up text-2xl font-semibold pb-5 md:pb-8">
               Mobile App Design
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">BeepShop App</h2>
@@ -21,6 +21,26 @@ export default function FigmaPsDesigns() {
                   target="_blank"
                   rel="nofollow"
                   href="https://www.figma.com/design/dQgpYZeA81PnNDg4v53ODt/beepshop-e-commerce-app?node-id=0-1&t=9KHXrOoLa1TboHo4-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium">
+                    Super Kirana App Business
+                  </h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/IhwObTdps693GzqwZ8QEqy/Super-Kirana-App-Business?node-id=0-1&t=bJumWpfhQIdDfHaF-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
@@ -49,26 +69,7 @@ export default function FigmaPsDesigns() {
                   </span>
                 </Link>
               </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">
-                    Super Kirana App Dashboard
-                  </h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/design/IhwObTdps693GzqwZ8QEqy/Super-Kirana-App-Dashboard?node-id=0-1&t=qAGX7hNW2x6lEwkC-1"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
-                    <LuFigma size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    Figma Design
-                  </span>
-                </Link>
-              </div>
+
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">Vaccination India App</h2>
@@ -108,10 +109,10 @@ export default function FigmaPsDesigns() {
             </div>
           </div>
           <div className="w-full">
-            <div className="w-full text-2xl font-semibold pb-5 md:pb-10">
+            <div className="w-full text-2xl font-semibold pb-5 md:pb-8">
               Dashboard & Website Design
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">
@@ -231,10 +232,10 @@ export default function FigmaPsDesigns() {
             </div>
           </div>
           <div className="w-full">
-            <div className="w-full text-2xl font-semibold pb-5 md:pb-10">
+            <div className="w-full text-2xl font-semibold pb-5 md:pb-8">
               Logo Design
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 items-center">
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium">BDA Corp Logo</h2>
@@ -261,24 +262,6 @@ export default function FigmaPsDesigns() {
                   target="_blank"
                   rel="nofollow"
                   href="https://www.figma.com/design/TOo1C0MtxkTWnetWCOKJao/Cuccu-Logo-Design?node-id=0-1&t=0TOOPNGU3hXQFqGj-1"
-                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
-                >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
-                    <LuFigma size={24} />
-                  </span>
-                  <span className="pl-4 pr-5 py-2.5 font-medium">
-                    Figma Design
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
-                <div className="w-full mb-4">
-                  <h2 className="text-lg font-medium">Shadow Bazaar Logo</h2>
-                </div>
-                <Link
-                  target="_blank"
-                  rel="nofollow"
-                  href="https://www.figma.com/design/RHflUaWdB4dzZC0f1FnxmQ/ShadowBazaar-Logo?node-id=0-1&t=ztTZo9VVfxVzyDb2-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
