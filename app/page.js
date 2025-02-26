@@ -25,7 +25,7 @@ export default function Home() {
             <ul className="flex items-center justify-start space-x-4 pt-2 relative">
               <li>
                 <Link
-                  href="https://www.linkedin.com/in/er-sunilsharma/"
+                  href="https://www.linkedin.com/in/sunilsharma-uixd/"
                   target="_blank"
                   className="inline-block text-center bg-linkedin text-white shadow-lg px-4 pt-3 pb-2 rounded-xl hover:scale-105 transition-all"
                 >
