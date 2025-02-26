@@ -8,13 +8,7 @@ import c2creview from "public/c2creview.png";
 import synarionit from "public/synarionit.png";
 import ludoapp from "public/ludoapp.png";
 import fun2048 from "public/fun2048.png";
-import thejohribazar from "public/thejohribazar.png";
 import famous11 from "public/famous11.png";
-import choic11 from "public/choic11.png";
-import bharatiyapashupalan from "public/bharatiyapashupalan.png";
-import webfity from "public/webfity.png";
-import boom11 from "public/boom11.png";
-import monafy from "public/monafy.png";
 
 export default function ProjectPortfolio() {
   return (
@@ -39,7 +33,7 @@ export default function ProjectPortfolio() {
           <Link
             href="/cheersagar"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             Cheer Sagar
           </Link>
@@ -68,7 +62,7 @@ export default function ProjectPortfolio() {
           <Link
             href="/c2creview"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             C2C Review
           </Link>
@@ -97,68 +91,12 @@ export default function ProjectPortfolio() {
           <Link
             href="/synarionit"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             Synarion IT Solutions
           </Link>
           <h3 className="text-left text-brand text-sm">
             UI/UX DESIGNING︲ UX RESEARCH
-          </h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg rounded-xl overflow-hidden">
-        <Link
-          href="/bharatiyapashupalan"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block overflow-hidden"
-        >
-          <Image
-            src={bharatiyapashupalan}
-            alt="bharatiyapashupalan"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/bharatiyapashupalan"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            Bhartiya Pashupalan
-          </Link>
-          <h3 className="text-left text-brand text-sm">UI DEVELOPMENT</h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg rounded-xl overflow-hidden">
-        <Link
-          href="/webfity"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block overflow-hidden"
-        >
-          <Image
-            src={webfity}
-            alt="webfity"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/webfity"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            Webfity | Website Builder
-          </Link>
-          <h3 className="text-left text-brand text-sm">
-            UX DESIGNING︲UI DEVELOPMENT
           </h3>
         </div>
       </div>
@@ -182,7 +120,7 @@ export default function ProjectPortfolio() {
           <Link
             href="/ludoapp"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             Ludo Classic
           </Link>
@@ -211,7 +149,7 @@ export default function ProjectPortfolio() {
           <Link
             href="/fun2048"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             Fun 2048
           </Link>
@@ -240,40 +178,13 @@ export default function ProjectPortfolio() {
           <Link
             href="/famous11"
             rel="nofollow"
-            className="text-xl text-brand font-bold"
+            className="text-xl text-black font-semibold"
           >
             Famous11 Fantasy Cricket
           </Link>
           <h3 className="text-left text-brand text-sm">
             APP DESIGNING ︲ APP UX RESEARCH
           </h3>
-        </div>
-      </div>
-      <div className="w-full shadow-lg rounded-xl overflow-hidden">
-        <Link
-          href="/boom11"
-          rel="nofollow"
-          className="mb-3 md:mb-4 block overflow-hidden"
-        >
-          <Image
-            src={boom11}
-            alt="boom11"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-full h-auto hover:scale-103 transition-all ease-in-out"
-            priority
-          />
-        </Link>
-        <div className="space-y-2 px-5 pb-5">
-          <Link
-            href="/boom11"
-            rel="nofollow"
-            className="text-xl text-brand font-bold"
-          >
-            Boom11 Fantasy App
-          </Link>
-          <h3 className="text-left text-brand text-sm">APP DESIGNING</h3>
         </div>
       </div>
     </>

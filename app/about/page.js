@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import about from "public/about-us.jpg";
 import webdevelopmentdesignimg03 from "public/icons/webdevelopment_design_img03.png";
 import webdevelopmentdesignimg05 from "public/icons/webdevelopment_design_img05.png";
 import webdevelopmentdesignimg04 from "public/icons/webdevelopment_design_img04.png";
@@ -23,32 +22,101 @@ export default function About() {
     <>
       <div className="w-full bg-gray-50 pt-4 md:pt-16 pb-10 md:pb-20">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0 items-center">
-            <div className="w-full">
-              <Image
-                src={about}
-                alt="about-us"
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="w-full h-auto"
-                priority
-              />
-            </div>
-            <div className="w-full space-y-4 px-0 md:px-10">
-              <h2 className="text-brand text-3xl md:text-5xl font-bold">
-                Hi, Im Sunil
+          <div className="space-y-10">
+            <div className="w-full space-y-5 px-0 md:px-10">
+              <h2 className="text-black text-3xl md:text-5xl font-bold">
+                About Me
               </h2>
               <div className="space-y-4 text-base text-dark leading-26">
-                <div>
-                  Experienced UI/UX Designer with 6+ years of expertise in
-                  crafting user-centered designs that enhance functionality and
-                  satisfaction. Skilled in Product Design, Front & Backend UI
-                  Development, Next.js, wireframing, prototyping, and design
-                  systems. Adept at solving complex design challenges and
-                  managing projects efficiently, delivering innovative solutions
-                  that drive the success of digital products through strategic
-                  thinking and meticulous design.
+                <div className="space-y-3">
+                  <p>
+                    Hi, I'm Sunil Sharma, a Senior UI/UX Designer with over 6+
+                    years of experience in crafting intuitive and user-centered
+                    digital experiences. Passionate about design thinking and
+                    problem-solving, I specialize in transforming ideas into
+                    seamless, functional, and visually compelling interfaces.
+                  </p>
+                  <p>
+                    With expertise in UI/UX design, product design, front &
+                    backend UI development, and wireframing & prototyping, I
+                    have successfully led and executed projects across various
+                    industries, including B2B, C2C platforms, healthcare, and
+                    e-commerce. My approach blends creativity, usability, and
+                    strategy, ensuring that every design enhances functionality
+                    and user satisfaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full space-y-5 px-0 md:px-10">
+              <h2 className="text-black text-3xl font-bold">My Skillset:</h2>
+              <div className="space-y-4 text-base text-dark leading-26">
+                <ul className="space-y-2">
+                  <li className="list-disc list-inside">
+                    UI/UX Design & Web Design
+                  </li>
+                  <li className="list-disc list-inside">
+                    Wireframing & Prototyping (Figma, Adobe XD)
+                  </li>
+                  <li className="list-disc list-inside">
+                    Design Systems & User Research
+                  </li>
+                  <li className="list-disc list-inside">
+                    Front-End UI Development (HTML, CSS, Bootstrap, Tailwind Css
+                    JavaScript)
+                  </li>
+                  <li className="list-disc list-inside">
+                    Basic Knowledge of Next.js (Experience in small projects)
+                  </li>
+                  <li className="list-disc list-inside">
+                    Graphic Design & Branding
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full space-y-5 px-0 md:px-10">
+              <h2 className="text-black text-3xl font-bold">
+                My Work Philosophy
+              </h2>
+              <div className="space-y-4 text-base text-dark leading-26">
+                <div className="space-y-3">
+                  <p>
+                    I believe that great design goes beyond aesthetics—it should
+                    solve real problems, drive engagement, and create lasting
+                    impressions. Whether it's building a dashboard for a
+                    healthcare platform or designing an intuitive B2B review &
+                    rating system, I focus on delivering designs that are both
+                    aesthetically pleasing and functionally efficient.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="px-0 md:px-10">
+              <div className="bg-white py-12 px-6 text-center rounded-2xl shadow-lg">
+                <h2 className="text-2xl font-bold text-gray-900">
+                  Let’s Connect!
+                </h2>
+                <p className="text-gray-600 mt-2 max-w-xl mx-auto">
+                  I’m always eager to collaborate on exciting projects and bring
+                  innovative ideas to life. Feel free to explore my work and get
+                  in touch for design projects, collaborations, or discussions
+                  on UI/UX trends.
+                </p>
+                <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+                  <a
+                    href="mailto:sharmasunil0968@gmail.com"
+                    className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
+                  >
+                    📩 Email Me
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/sunilsharma-uixd/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-800 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-gray-900 transition"
+                  >
+                    🔗 Connect on LinkedIn
+                  </a>
                 </div>
               </div>
             </div>
@@ -59,9 +127,6 @@ export default function About() {
       <div className="w-full bg-white pt-4 md:pt-10 pb-10 md:pb-14">
         <div className="mx-auto max-w-6xl px-4">
           <div className="w-full space-y-7 md:space-y-10">
-            <h3 className="pb-3 text-black text-center text-3xl md:text-3xl font-semibold relative after:absolute after:h-0.7 after:mx-auto after:left-0 after:right-0 after:w-32 after:bg-black after:content-[''] after:bottom-0">
-              Skills & Expertise
-            </h3>
             <div className="w-full space-y-6 md:space-y-10 text-center">
               <ul className="flex flex-wrap gap-4 items-center justify-center">
                 <li className="bg-yellow-50 rounded-md inline-block">

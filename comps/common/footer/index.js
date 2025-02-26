@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="w-full bg-gray-800 py-4 text-center">
+      <div className="w-full bg-black py-4 text-center">
         <div className="mx-auto max-w-6xl px-4">
-          <p className="text-sm font-medium text-white">
+          <p className="text-sm font-normal text-white">
             COPYRIGHT © 2025 UIUXSUNIL.Online
           </p>
         </div>

@@ -37,14 +37,14 @@ export default function SystemDesign() {
                   devices.
                 </p>
                 <div className="space-y-4 pb-3">
-                  <h3 className="font-bold text-xl text-red-700">
+                  <h3 className="font-bold text-xl text-blue-700">
                     Core Elements of the Design System:
                   </h3>
                   <ul className="space-y-2">
                     <li className="flex items-center justify-start space-x-2 text-base text-black">
-                      <span className="text-red-700">✔</span>
+                      <span className="text-blue-700">✔</span>
                       <p>
-                        <strong className="text-red-700">
+                        <strong className="text-blue-700">
                           Navigation & Layout
                         </strong>
                         – Navbar (Top & Bottom), Breadcrumbs, Page Control,
@@ -52,9 +52,9 @@ export default function SystemDesign() {
                       </p>
                     </li>
                     <li className="flex items-center justify-start space-x-2 text-base text-black">
-                      <span className="text-red-700">✔</span>
+                      <span className="text-blue-700">✔</span>
                       <p>
-                        <strong className="text-red-700">
+                        <strong className="text-blue-700">
                           Interactive Elements
                         </strong>
                         – Buttons, Button Groups, Toggle, Radio, Checkbox,
@@ -62,18 +62,18 @@ export default function SystemDesign() {
                       </p>
                     </li>
                     <li className="flex items-center justify-start space-x-2 text-base text-black">
-                      <span className="text-red-700">✔</span>
+                      <span className="text-blue-700">✔</span>
                       <p>
-                        <strong className="text-red-700">
+                        <strong className="text-blue-700">
                           Feedback & Alerts
                         </strong>
                         – Alerts, Pop-ups, Progress Bars, Loaders, Tooltips.
                       </p>
                     </li>
                     <li className="flex items-center justify-start space-x-2 text-base text-black">
-                      <span className="text-red-700">✔</span>
+                      <span className="text-blue-700">✔</span>
                       <p>
-                        <strong className="text-red-700">
+                        <strong className="text-blue-700">
                           Visual & Styling
                         </strong>
                         – Fonts, Typography, Icons, Colors, Shadow, Badge &
@@ -81,9 +81,9 @@ export default function SystemDesign() {
                       </p>
                     </li>
                     <li className="flex items-center justify-start space-x-2 text-base text-black">
-                      <span className="text-red-700">✔</span>
+                      <span className="text-blue-700">✔</span>
                       <p>
-                        <strong className="text-red-700">
+                        <strong className="text-blue-700">
                           Cards & Containers
                         </strong>
                         – Card Components for structured layouts.
@@ -97,7 +97,7 @@ export default function SystemDesign() {
                   href="https://www.figma.com/design/tm5UCxauFHvj9EZrazFHls/My-System-Design?node-id=0-1&t=ddqEngWJyBQIrhjD-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
-                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                  <span className="px-3.5 py-2 text-white bg-blue-700 flex items-center justify-center">
                     <LuFigma size={24} />
                   </span>
                   <span className="pl-4 pr-5 py-2.5 font-medium">

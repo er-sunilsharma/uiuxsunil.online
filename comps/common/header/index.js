@@ -132,14 +132,6 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/figma-ps-designs"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
-                    >
-                      Figma/PS Designs
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
                       href="/system-design"
                       className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
                     >
@@ -166,15 +158,6 @@ export default function Header() {
                       aria-current="page"
                     >
                       About US
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/figma-ps-designs"
-                      onClick={toggleNavbar}
-                      className="block py-2 px-3 font-semibold text-brand md:p-0"
-                    >
-                      Figma/PS Designs
                     </Link>
                   </li>
                   <li>
