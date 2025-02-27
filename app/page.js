@@ -13,14 +13,11 @@ export default function Home() {
           <div className="w-full space-y-3 md:space-y-7">
             <h1 className="text-3xl md:text-40 font-bold">Hey, I’m Sunil.</h1>
             <p className="leading-7 text-base">
-              Senior UI/UX & Product Designer with seven years of experience
-              specializing in Figma and responsive web design; led design
-              efforts for over 20 enterprise projects resulting in a 30%
-              increase in user engagement; reduced development time by an
-              average of effective collaboration with cross-functional teams.
-              Recognized for contributions to enhancing digital experiences
-              across major platforms while maintaining a focus on accessibility
-              and usability testing.
+              Hi, I'm Sunil Sharma, a Senior UI/UX Designer with over 6+ years
+              of experience in crafting intuitive and user-centered digital
+              experiences. Passionate about design thinking and problem-solving,
+              I specialize in transforming ideas into seamless, functional, and
+              visually compelling interfaces.
             </p>
             <ul className="flex items-center justify-start space-x-4 pt-2 relative">
               <li>
