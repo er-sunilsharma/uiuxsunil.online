@@ -17,7 +17,13 @@ export default function Home() {
               of experience in crafting intuitive and user-centered digital
               experiences. Passionate about design thinking and problem-solving,
               I specialize in transforming ideas into seamless, functional, and
-              visually compelling interfaces.
+              visually compelling interfaces. With expertise in UI/UX design,
+              product design, front & backend UI development, and wireframing &
+              prototyping, I have successfully led and executed projects across
+              various industries, including B2B, C2C platforms, healthcare, and
+              e-commerce. My approach blends creativity, usability, and
+              strategy, ensuring that every design enhances functionality and
+              user satisfaction.
             </p>
             <ul className="flex items-center justify-start space-x-4 pt-2 relative">
               <li>
