@@ -136,6 +136,26 @@ export default function Home() {
               <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
                 <div className="w-full mb-4">
                   <h2 className="text-lg font-medium text-black">
+                    Doctor Appointment App
+                  </h2>
+                </div>
+                <Link
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.figma.com/design/5abqfAJeCrE6zWvMGuu5GM/Doctor-Appointment-App-Design?node-id=0-1&t=THwpIc3Bvl4LfBZg-1"
+                  className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
+                >
+                  <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
+                    <LuFigma size={24} />
+                  </span>
+                  <span className="pl-4 pr-5 py-2.5 font-medium">
+                    Figma Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full bg-white rounded-2xl pt-5 pb-7 px-4 text-center shadow-2xl">
+                <div className="w-full mb-4">
+                  <h2 className="text-lg font-medium text-black">
                     Super Kirana Business App
                   </h2>
                 </div>
