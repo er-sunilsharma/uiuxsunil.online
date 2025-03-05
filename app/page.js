@@ -162,7 +162,7 @@ export default function Home() {
                 <Link
                   target="_blank"
                   rel="nofollow"
-                  href="https://www.figma.com/design/IhwObTdps693GzqwZ8QEqy/Super-Kirana-App-Business?node-id=0-1&t=bJumWpfhQIdDfHaF-1"
+                  href="https://www.figma.com/design/YEfcGDfbPep4Zxo2Omu6bG/Super-Kirana-App-Business?node-id=0-1&t=p8fqQ3Ga1jVhSTCn-1"
                   className="inline-flex overflow-hidden text-white bg-gray-900 rounded-full group"
                 >
                   <span className="px-3.5 py-2 text-white bg-red-600 flex items-center justify-center">
