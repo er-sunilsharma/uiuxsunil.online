@@ -16,6 +16,7 @@ import bootstrap from "public/icons/bootstrap.png";
 import mongodb from "public/icons/mongodb.png";
 import github from "public/icons/github.png";
 import vercel from "public/icons/vercel.png";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -32,9 +33,13 @@ export default function About() {
                   <p>
                     Hi, I'm Sunil Sharma, a Senior UI/UX Designer with over 6+
                     years of experience in crafting intuitive and user-centered
-                    digital experiences. Passionate about design thinking and
-                    problem-solving, I specialize in transforming ideas into
-                    seamless, functional, and visually compelling interfaces.
+                    digital experiences. Passionate{" "}
+                    <Link href="https://www.figma.com/design/CCsAPxIMS6Uio052y8Ir5A/Amazon-Dashboard-Re-design?node-id=3-6&t=vWxaQEgkGWd2Febr-0">
+                      about
+                    </Link>{" "}
+                    design thinking and problem-solving, I specialize in
+                    transforming ideas into seamless, functional, and visually
+                    compelling interfaces.
                   </p>
                   <p>
                     With expertise in UI/UX design, product design, front &
