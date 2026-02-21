@@ -5,6 +5,7 @@ import React from "react";
 import logo from "public/logo.svg";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { MdAlternateEmail } from "react-icons/md";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,45 +27,23 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
-  // active class
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 200) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
     <>
-      <div
-        className={`w-full border-b border-solid bg-white border-gray-100 transition-all z-10 duration-300 ${
-          isScrolled ? "fixed shadow-lg" : "relative"
-        }`}
-      >
-        <div className="mx-auto max-w-6xl px-4">
-          <nav className="bg-white border-gray-200">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
+      <div className="w-full transition-all fixed z-50 bg-[#ffffff30] duration-300 backdrop-blur-lg">
+        <div className="py-3 px-4 sm:py-3 sm:px-10">
+          <nav className="">
+            <div className="flex flex-wrap items-center justify-between mx-auto">
               <Link
                 href="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
-                <Image src={logo} alt="Logo" width={34} height={40} priority />
+                <Image src={logo} alt="Logo" width={30} height={36} priority />
               </Link>
               <button
                 onClick={toggleNavbar}
                 data-collapse-toggle="navbar-default"
                 type="button"
-                className="z-50 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                className="z-50 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-0 focus:ring-gray-200 "
                 aria-controls="navbar-default"
                 aria-expanded={isOpen ? "true" : "false"}
               >
@@ -73,12 +52,12 @@ export default function Header() {
                 </span>
                 {isOpen ? (
                   <svg
-                    className="w-5 h-5"
+                    className="w-7 h-7"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#000"
                   >
                     <path
                       strokeLinecap="round"
@@ -89,12 +68,12 @@ export default function Header() {
                   </svg>
                 ) : (
                   <svg
-                    className="w-5 h-5"
+                    className="w-7 h-7"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#000"
                   >
                     <path
                       strokeLinecap="round"
@@ -108,14 +87,14 @@ export default function Header() {
               <div
                 className={`${
                   isOpen ? "block" : "hidden"
-                } w-full md:block md:w-auto fixed h-screen md:relative md:h-auto bg-white inset-0 z-10 flex items-center justify-center`}
+                } w-full md:block md:w-auto fixed h-screen md:relative md:h-auto bg-white sm:bg-transparent inset-0 z-10 flex items-center justify-center`}
                 id="navbar-default"
               >
-                <ul className="hidden md:flex text-sm flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-5 md:space-y-0">
+                <ul className="hidden md:flex text-[17px] flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 bg-transparent md:text-left text-center space-y-5 md:space-y-0 items-center">
                   <li>
                     <Link
                       href="/"
-                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
+                      className="block py-2 px-3 text-gray-800 md:p-0 font-normal hover:text-red-700"
                       aria-current="page"
                     >
                       Home
@@ -124,49 +103,66 @@ export default function Header() {
                   <li>
                     <Link
                       href="/about"
-                      className="block py-2 px-3 text-black md:p-0 font-semibold hover:text-red-700 uppercase"
+                      className="block py-2 px-3 text-gray-800 md:p-0 font-normal hover:text-red-700"
                       aria-current="page"
                     >
-                      About US
+                      About Me
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/system-design"
-                      className="block py-2 px-3 text-black md:p-0 uppercase hover:text-red-700 font-semibold"
+                      href="/#allprojects"
+                      className="block py-2 px-3 text-gray-800 md:p-0 font-normal hover:text-red-700"
+                      aria-current="page"
                     >
-                      System Design
+                      Projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://wa.me/9680024968"
+                      target="_blank"
+                      className="py-0.5 px-5 text-white hover:bg-gray-200 transition-all hover:text-black font-normal bg-black h-12 flex items-center justify-center rounded-full space-x-1.5"
+                    >
+                      <MdAlternateEmail size={18} />
+                      <span>Let's Talk</span>
                     </Link>
                   </li>
                 </ul>
-                <ul className="flex md:hidden text-base flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-5 md:space-y-0">
-                  <li>
+                <ul className="flex md:hidden text-base flex-col p-4 md:p-0 mt-4 md:flex-row space-x-0 md:space-x-8 md:mt-0 md:border-0 md:bg-white md:text-left text-center space-y-6 md:space-y-0">
+                  <li className="flex items-center justify-center space-x-3">
                     <Link
                       href="/"
                       onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0 font-semibold hover:text-blue-600"
+                      className="block py-2 px-3 text-brand md:p-0 font-normal hover:text-blue-600"
                       aria-current="page"
                     >
                       Home
                     </Link>
-                  </li>
-                  <li>
                     <Link
                       href="/about"
                       onClick={toggleNavbar}
-                      className="block py-2 px-3 text-brand md:p-0 font-semibold hover:text-blue-600"
+                      className="block py-2 px-3 text-brand md:p-0 font-normal hover:text-blue-600"
                       aria-current="page"
                     >
-                      About US
+                      About Me
+                    </Link>
+                    <Link
+                      href="/#allprojects"
+                      onClick={toggleNavbar}
+                      className="block py-2 px-3 font-normal text-brand md:p-0"
+                    >
+                      Projects
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/system-design"
-                      onClick={toggleNavbar}
-                      className="block py-2 px-3 font-semibold text-brand md:p-0"
+                      href="https://wa.me/9680024968"
+                      target="_blank"
+                      className="py-0.5 px-5 text-white hover:bg-gray-200 transition-all hover:text-black font-normal bg-black h-12 flex items-center justify-center rounded-full space-x-1.5"
                     >
-                      System Design
+                      <MdAlternateEmail size={18} />
+                      <span>Let's Talk</span>
                     </Link>
                   </li>
                 </ul>

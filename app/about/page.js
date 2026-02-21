@@ -1,284 +1,152 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import webdevelopmentdesignimg03 from "public/icons/webdevelopment_design_img03.png";
-import webdevelopmentdesignimg05 from "public/icons/webdevelopment_design_img05.png";
-import webdevelopmentdesignimg04 from "public/icons/webdevelopment_design_img04.png";
-import webdevelopmentdesignimg02 from "public/icons/webdevelopment_design_img02.png";
-import canva from "public/icons/canva.png";
-import html5 from "public/icons/html5.png";
-import css3 from "public/icons/css3.png";
-import javascript from "public/icons/javascript.png";
-import nextjs from "public/icons/next-js.png";
-import tailwindcss from "public/icons/tailwind-css.png";
-import bootstrap from "public/icons/bootstrap.png";
-import mongodb from "public/icons/mongodb.png";
-import github from "public/icons/github.png";
-import vercel from "public/icons/vercel.png";
 import Link from "next/link";
+import { GiClothes } from "react-icons/gi";
+import { SkillsExpertise } from "@/comps/common";
 
 export default function About() {
   return (
     <>
-      <div className="w-full bg-gray-50 pt-4 md:pt-16 pb-10 md:pb-20">
+      <div className="w-full bg-white py-16 sm:py-24">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="space-y-10">
-            <div className="w-full space-y-5 px-0 md:px-10">
-              <h2 className="text-black text-3xl md:text-5xl font-bold">
-                About Me
-              </h2>
-              <div className="space-y-4 text-base text-dark leading-26">
-                <div className="space-y-3">
-                  <p>
-                    Hi, I'm Sunil Sharma, a Senior UI/UX Designer with over 6+
-                    years of experience in crafting intuitive and user-centered
-                    digital experiences. Passionate{" "}
-                    <Link href="https://www.figma.com/design/CCsAPxIMS6Uio052y8Ir5A/Amazon-Dashboard-Re-design?node-id=3-6&t=vWxaQEgkGWd2Febr-0">
-                      about
-                    </Link>{" "}
-                    design thinking and problem-solving, I specialize in
-                    transforming ideas into seamless, functional, and visually
-                    compelling interfaces.
-                  </p>
-                  <p>
-                    With expertise in UI/UX design, product design, front &
-                    backend UI development, and wireframing & prototyping, I
-                    have successfully led and executed projects across various
-                    industries, including B2B, C2C platforms, healthcare, and
-                    e-commerce. My approach blends creativity, usability, and
-                    strategy, ensuring that every design enhances functionality
-                    and user satisfaction.
-                  </p>
+          <div className="w-full space-y-3 md:space-y-7 text-left">
+            <h1 className="text-3xl md:text-6xl font-normal gradient-text">
+              About Me
+            </h1>
+            <div className="leading-8 text-[19px] max-w-6xl mx-auto text-gray-600 space-y-1.5">
+              <p>
+                Hi, I’m Sunil Sharma — a Senior UI/UX Designer with 8+ years of
+                experience designing intuitive, scalable digital products across
+                web and mobile platforms. I specialize in user research,
+                information architecture, wireframing, and high-fidelity
+                prototyping using Figma, creating design systems that bring
+                clarity to complex problems.
+              </p>
+              <p>
+                Beyond design, I bridge strategy and execution through hands-on
+                UI development in Webflow, HTML, CSS, and JavaScript. My
+                approach is simple: craft purposeful, user-centered experiences
+                that are not only visually refined but also functional and
+                performance-driven.
+              </p>
+            </div>
+            <ul className="flex items-center justify-start space-x-2 pt-2 relative">
+              <li>
+                <Link
+                  href="/#allprojects"
+                  className="text-center bg-black text-white px-5 space-x-1.5 rounded-full h-12 hover:scale-105 transition-all flex items-center"
+                >
+                  <span className="inline-block w-full text-base font-normal">
+                    View All Works
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://wa.me/9680024968"
+                  target="_blank"
+                  className="flex items-center text-center bg-gray-200 text-black space-x-1.5 px-5 h-12 rounded-full hover:scale-105 transition-all"
+                >
+                  <span className="inline-block w-full text-base font-normal">
+                    Contact Me
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full bg-[#f7f7f7] py-16 sm:py-28">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="w-full space-y-6 sm:space-y-12">
+            <h2 className="text-2xl sm:text-5xl lg:text-[40px] text-gray-900 leading-8 font-normal">
+              Experience & Education
+            </h2>
+            <div className="space-y-2.5">
+              <div className="w-full">
+                <div className="flex flex-col sm:flex-row px-4 space-y-3 sm:space-y-0 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-[#7430f7] text-white">
+                  <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px]">
+                    Team Lead - UI/UX & Web Design, UI Development
+                  </div>
+                  <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
+                    <div className="text-[15px] sm:text-base">
+                      BDA Tech & Media (BDA Corp) · Full-time
+                    </div>
+                    <div className="text-[15px] sm:text-base">
+                      Feb 2020 - Present
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="w-full space-y-5 px-0 md:px-10">
-              <h2 className="text-black text-3xl font-bold">My Skillset:</h2>
-              <div className="space-y-4 text-base text-dark leading-26">
-                <ul className="space-y-2">
-                  <li className="list-disc list-inside">
-                    UI/UX Design & Web Design
-                  </li>
-                  <li className="list-disc list-inside">
-                    Wireframing & Prototyping (Figma, Adobe XD)
-                  </li>
-                  <li className="list-disc list-inside">
-                    Design Systems & User Research
-                  </li>
-                  <li className="list-disc list-inside">
-                    Front-End UI Development (HTML, CSS, Bootstrap, Tailwind Css
-                    JavaScript)
-                  </li>
-                  <li className="list-disc list-inside">
-                    Basic Knowledge of Next.js (Experience in small projects)
-                  </li>
-                  <li className="list-disc list-inside">
-                    Graphic Design & Branding
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full space-y-5 px-0 md:px-10">
-              <h2 className="text-black text-3xl font-bold">
-                My Work Philosophy
-              </h2>
-              <div className="space-y-4 text-base text-dark leading-26">
-                <div className="space-y-3">
-                  <p>
-                    I believe that great design goes beyond aesthetics—it should
-                    solve real problems, drive engagement, and create lasting
-                    impressions. Whether it's building a dashboard for a
-                    healthcare platform or designing an intuitive B2B review &
-                    rating system, I focus on delivering designs that are both
-                    aesthetically pleasing and functionally efficient.
-                  </p>
+              <div className="w-full">
+                <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 px-4 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-white">
+                  <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px] text-[##111]">
+                    Ui/Ux Designer, Ui Developer, Graphic Design
+                  </div>
+                  <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Synarion IT Solutions · Full-time
+                    </div>
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Dec 2018 - Jan 2020
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="px-0 md:px-10">
-              <div className="bg-white py-12 px-6 text-center rounded-2xl shadow-lg">
-                <h2 className="text-2xl font-bold text-gray-900">
-                  Let’s Connect!
-                </h2>
-                <p className="text-gray-600 mt-2 max-w-xl mx-auto">
-                  I’m always eager to collaborate on exciting projects and bring
-                  innovative ideas to life. Feel free to explore my work and get
-                  in touch for design projects, collaborations, or discussions
-                  on UI/UX trends.
-                </p>
-                <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-                  <a
-                    href="mailto:sharmasunil0968@gmail.com"
-                    className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
-                  >
-                    📩 Email Me
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/sunilsharma-uixd/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-800 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-gray-900 transition"
-                  >
-                    🔗 Connect on LinkedIn
-                  </a>
+              <div className="w-full">
+                <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 px-4 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-white">
+                  <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px] text-[##111]">
+                    Web Designer, Ui Developer
+                  </div>
+                  <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      BR Softech Pvt. Ltd. · Full-time
+                    </div>
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Dec 2017 - Nov 2018
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full">
+                <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 px-4 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-white">
+                  <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px] text-[##111]">
+                    Web Design, Ui Development
+                  </div>
+                  <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Creative Web Pixel - Jaipur
+                    </div>
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Jun 2017 · Nov 2018
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full">
+                <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 px-4 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-white">
+                  <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px] text-[##111]">
+                    Bachelor of Computer Applications
+                  </div>
+                  <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      Central University of Rajasthan - Jaipur
+                    </div>
+                    <div className="text-[15px] sm:text-base text-[#575c63]">
+                      2015 - 2018
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="w-full bg-white pt-4 md:pt-10 pb-10 md:pb-14">
+      <div className="w-full bg-white py-16 sm:py-28">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="w-full space-y-7 md:space-y-10">
-            <div className="w-full space-y-6 md:space-y-10 text-center">
-              <ul className="flex flex-wrap gap-4 items-center justify-center">
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={webdevelopmentdesignimg03}
-                    alt="webdevelopment_design_img03"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={canva}
-                    alt="canva"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={webdevelopmentdesignimg05}
-                    alt="webdevelopment_design_img05"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={html5}
-                    alt="html5"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={webdevelopmentdesignimg04}
-                    alt="webdevelopment_design_img04"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={css3}
-                    alt="css3"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={webdevelopmentdesignimg02}
-                    alt="webdevelopment_design_img02"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={javascript}
-                    alt="javascript"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-              </ul>
-              <ul className="flex flex-wrap gap-4 items-center justify-center">
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={nextjs}
-                    alt="nextjs"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={tailwindcss}
-                    alt="tailwindcss"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={bootstrap}
-                    alt="bootstrap"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={mongodb}
-                    alt="mongodb"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={github}
-                    alt="github"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-                <li className="bg-yellow-50 rounded-md inline-block">
-                  <Image
-                    src={vercel}
-                    alt="vercel"
-                    width={77}
-                    height={77}
-                    priority
-                    unoptimized
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
+          <SkillsExpertise />
         </div>
       </div>
     </>

@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="w-full bg-black py-4 text-center">
+      <div className="w-full bg-black py-5 text-center">
         <div className="mx-auto max-w-6xl px-4">
-          <p className="text-sm font-normal text-white">
-            COPYRIGHT © 2025 UIUXSUNIL.Online
+          <p className="text-base font-normal text-white">
+            © {new Date().getFullYear()} suniluiux.online. All Rights Reserved.
           </p>
         </div>
       </div>

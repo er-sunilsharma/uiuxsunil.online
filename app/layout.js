@@ -1,26 +1,31 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Footer, Header } from "@/comps/common";
-import { DM_Sans } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
-const dm_sans = DM_Sans({ subsets: ["latin"] });
+const outfits = Outfit({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-poppins",
+});
 
 export const metadata = {
-  title: "Sunil Sharma | UI/UX DESIGNER PROJECT PORTFOLIO SHOWCASE",
+  title: "Sunil Sharma | Senior UI/UX Designer & UI Developer",
   description:
-    "Sr. UI/UX Designer, Next JS, Docker, UI Developer, Product Designer, Mockup, Wireframe, UX Research, Project Management,",
+    "Senior UI/UX Designer with 8+ years of experience crafting intuitive web, mobile apps, and dashboard experiences. Specialized in user research, Figma prototyping, design systems, and frontend UI development using Webflow, HTML, CSS, and JavaScript.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="icon" href="favicon.ico" sizes="any" />
+        <link rel="icon" href="favicon.png" sizes="any" />
       </head>
-      <body className={dm_sans.className}>
+      <body className={outfits.className}>
         <SpeedInsights />
         <Header />
-        {children}
+        <div className="pt-[64.45px] sm:pt-[72px]">{children}</div>
         <Footer />
       </body>
     </html>
