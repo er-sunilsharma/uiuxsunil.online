@@ -37,7 +37,14 @@ export default function Header() {
                 href="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
-                <Image src={logo} alt="Logo" width={30} height={36} priority />
+                <Image
+                  src={logo}
+                  alt="Logo"
+                  width={30}
+                  height={36}
+                  priority
+                  draggable="false"
+                />
               </Link>
               <button
                 onClick={toggleNavbar}
@@ -120,6 +127,15 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
+                      href="/activity"
+                      className="block py-2 px-3 text-gray-800 md:p-0 font-normal hover:text-red-700"
+                      aria-current="page"
+                    >
+                      Activity
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="https://wa.me/9680024968"
                       target="_blank"
                       className="py-0.5 px-5 text-white hover:bg-gray-200 transition-all hover:text-black font-normal bg-black h-12 flex items-center justify-center rounded-full space-x-1.5"
@@ -153,6 +169,13 @@ export default function Header() {
                       className="block py-2 px-3 font-normal text-brand md:p-0"
                     >
                       Projects
+                    </Link>
+                    <Link
+                      href="/activity"
+                      onClick={toggleNavbar}
+                      className="block py-2 px-3 font-normal text-brand md:p-0"
+                    >
+                      Activity
                     </Link>
                   </li>
                   <li>

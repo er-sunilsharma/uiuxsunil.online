@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import { GiClothes } from "react-icons/gi";
 import { SkillsExpertise } from "@/comps/common";
 
 export default function About() {
@@ -66,7 +65,7 @@ export default function About() {
             </h2>
             <div className="space-y-2.5">
               <div className="w-full">
-                <div className="flex flex-col sm:flex-row px-4 space-y-3 sm:space-y-0 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-[#7430f7] text-white">
+                <div className="flex flex-col sm:flex-row px-4 space-y-3 sm:space-y-0 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full animated-gradient-bg text-white">
                   <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px]">
                     Team Lead - UI/UX & Web Design, UI Development
                   </div>

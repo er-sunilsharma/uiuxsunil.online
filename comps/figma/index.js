@@ -146,7 +146,7 @@ export default function FigmaGrid() {
       <div className="mb-12 lg:mb-16">
         <div className="flex flex-col gap-8 sm:gap-12 justify-center w-full items-center">
           <div className="inline-block">
-            <span className="px-6 py-2.5 bg-black text-white rounded-full text-base font-normal">
+            <span className="px-6 py-2.5 animated-gradient-bg text-white rounded-full text-base font-normal">
               UI/UX Design Portfolio
             </span>
           </div>
@@ -199,6 +199,7 @@ export default function FigmaGrid() {
                       src={item.designimage}
                       alt={item.title}
                       className="w-full h-full object-cover"
+                      draggable="false"
                     />
                   </div>
                 </div>

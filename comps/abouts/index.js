@@ -73,7 +73,7 @@ export default function SkillsExpertise() {
   return (
     <div className="w-full">
       <div className="mb-12 lg:mb-16 text-center">
-        <span className="px-6 py-2.5 bg-black text-white rounded-full text-base">
+        <span className="px-6 py-2.5 animated-gradient-bg text-white rounded-full text-base">
           My Expertise
         </span>
         <h1 className="mt-8 text-2xl sm:text-5xl lg:text-[40px] font-medium text-gray-900 leading-tight max-w-4xl mx-auto">

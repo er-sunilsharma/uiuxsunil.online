@@ -34,13 +34,13 @@ export default function Home() {
               of turning complex ideas into simple, usable, and impactful
               products.
             </p>
-            <ul className="flex items-center justify-center space-x-2 pt-2 relative">
+            <ul className="flex items-center flex-col sm:flex-row justify-center space-x-2 pt-2 relative">
               <li>
                 <div className="flex flex-col items-center gap-3">
                   {!showInput ? (
                     <button
                       onClick={() => setShowInput(true)}
-                      className="text-center bg-linkedin text-white px-5 space-x-1.5 rounded-full h-12 hover:scale-105 transition-all flex items-center"
+                      className="text-center bg-linkedin text-white px-5 space-x-1.5 rounded-full h-12 hover:scale-105 transition-all flex items-center mb-2 sm:mb-0"
                     >
                       <FaLinkedinIn size={24} className="mx-auto" />
                       <span className="inline-block w-full text-base font-normal">

@@ -106,6 +106,7 @@ export default function PortfolioHero() {
                   height="500"
                   priority
                   className="w-full h-full object-cover"
+                  draggable="false"
                 />
               </div>
               {/* Decorative elements */}

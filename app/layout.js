@@ -1,5 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Footer, Header } from "@/comps/common";
+import { Footer, Header, DisableInspect } from "@/comps/common";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="favicon.png" sizes="any" />
       </head>
       <body className={outfits.className}>
+        <DisableInspect />
         <SpeedInsights />
         <Header />
         <div className="pt-[64.45px] sm:pt-[72px]">{children}</div>

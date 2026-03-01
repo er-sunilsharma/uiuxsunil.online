@@ -181,6 +181,7 @@ export default function ProjectPortfolio() {
                     className=""
                     priority
                     rel="nofollow"
+                    draggable="false"
                   />
                 </div>
                 <div className="p-6 sm:p-8 w-full md:w-2/5 flex flex-col justify-between overflow-hidden border-solid border-[#ebebeb] border rounded-3xl bg-white order-2 md:order-1">
