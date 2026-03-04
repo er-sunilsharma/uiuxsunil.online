@@ -7,7 +7,7 @@ import { VscPreview } from "react-icons/vsc";
 import { MdOutlineImportantDevices } from "react-icons/md";
 import { SiCivicrm } from "react-icons/si";
 import { FaKitMedical } from "react-icons/fa6";
-import { FaLightbulb, FaDigitalOcean } from "react-icons/fa";
+import { FaLightbulb, FaDigitalOcean, FaHeadSideVirus } from "react-icons/fa";
 
 export default function ProjectPortfolio() {
   const projects = [
@@ -20,7 +20,7 @@ export default function ProjectPortfolio() {
       description:
         "Leading garment manufacturer and exporter in India, offering boutique, formal, casual, and party wear for women and kids at affordable prices.",
       projectlead: "Mr. Nikhar Sharma",
-      myrole: "Ui/Ux Designing, Ux Research",
+      myrole: "Ui/Ux Designing, Ui Development",
       projectlink: "https://www.cheersagar.com/",
       image: "/cheersagar.png",
       bgColor: "bg-[#f0eff2]",
@@ -62,7 +62,7 @@ export default function ProjectPortfolio() {
       description:
         "No Barrier delivers AI medical interpretation, bridging language gaps for secure, accurate, instant healthcare communication.",
       projectlead: "Jaspreet Singh",
-      myrole: "Webflow Development (CMS)",
+      myrole: "Website Design, Webflow Dev. (CMS)",
       projectlink: "https://www.nobarrier.ai/",
       image: "/nobarriersite.jpg",
       bgColor: "bg-white",
@@ -76,7 +76,7 @@ export default function ProjectPortfolio() {
       description:
         "Catch+Release helps brands create authentic, award-winning marketing campaigns in collaboration with agencies and teams.",
       projectlead: "Kapil Singh Negi",
-      myrole: "Webflow Development (CMS)",
+      myrole: "Website Design, Webflow Dev. (CMS)",
       projectlink: "https://www.catchandrelease.com/",
       image: "/catchandrelease.jpg",
       bgColor: "bg-white",
@@ -88,15 +88,29 @@ export default function ProjectPortfolio() {
       iconcolor: "text-white",
       title: "My Home Filters",
       description:
-        "My Home Filters provides Sydney families clean, safe water backed by trusted plumbers, not pushy sales tactics.",
+        "My Home Filters provides Sydney families clean, safe water through a simple one-page website, backed by trusted plumbers — not pushy sales tactics.",
       projectlead: "Jaspreet Singh (geewonii)",
-      myrole: "Webflow Development (CMS)",
+      myrole: "Prototype Design, Webflow Dev. (CMS)",
       projectlink: "https://www.myhomefilters.com.au/",
       image: "/myhomefilters.jpg",
       bgColor: "bg-white",
     },
     {
       id: 7,
+      icon: FaHeadSideVirus,
+      iconbg: "bg-[#f26531]",
+      iconcolor: "text-white",
+      title: "BDA Media",
+      description:
+        "BDA provides innovative digital marketing solutions that help brands grow, engage audiences, and unlock new possibilities.",
+      projectlead: "Jonathan Pham",
+      myrole: "Next.js Ui Development (Tailwind)",
+      projectlink: "https://bda.media/",
+      image: "/0-bdamedia.jpg",
+      bgColor: "bg-[#f3f4f5]",
+    },
+    {
+      id: 8,
       icon: FaLightbulb,
       iconbg: "bg-[#e74732]",
       iconcolor: "text-white",
@@ -104,13 +118,13 @@ export default function ProjectPortfolio() {
       description:
         "Sprint Creative delivers agile, high-impact marketing—direct collaboration, fast decisions, zero layers, focused purely on real results.",
       projectlead: "Jaspreet Singh",
-      myrole: "Ui Design + Webflow Development",
+      myrole: "Prototype Design, Webflow Development",
       projectlink: "https://www.sprintcreative.co.uk/",
       image: "/sprintcreative.jpg",
       bgColor: "bg-[#f3f4f5]",
     },
     {
-      id: 8,
+      id: 9,
       icon: SiCivicrm,
       iconbg: "bg-[#006aff]",
       iconcolor: "text-white",
@@ -118,7 +132,7 @@ export default function ProjectPortfolio() {
       description:
         "TPOS™ helps agents scale smarter, simplify operations, and grow confidently at every stage.",
       projectlead: "Jaspreet Singh",
-      myrole: "Ui Design + Webflow Development",
+      myrole: "Ui Design, Webflow Development",
       projectlink: "https://www.tpos.ai/",
       image: "/tpossaipreview.jpg",
       bgColor: "bg-[#f3f4f5]",
