@@ -112,7 +112,7 @@ export default function About() {
               <div className="w-full">
                 <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 px-4 sm:px-6 py-4 rounded-2xl overflow-hidden items-start sm:items-center h-min relative w-full bg-white">
                   <div className="h-auto min-w-full sm:min-w-72 relative whitespace-pre-wrap w-px flex-1 flex justify-start text-lg sm:text-[19px] text-[##111]">
-                    Web Design, Ui Development
+                    Web Design, Ui Development - (internship)
                   </div>
                   <div className="flex items-start space-y-2 sm:space-y-0 sm:items-center h-min flex-1 overflow-visible relative flex-col sm:flex-row justify-between w-full">
                     <div className="text-[15px] sm:text-base text-[#575c63]">
