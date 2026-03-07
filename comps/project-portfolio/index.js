@@ -8,6 +8,7 @@ import { MdOutlineImportantDevices } from "react-icons/md";
 import { SiCivicrm } from "react-icons/si";
 import { FaKitMedical } from "react-icons/fa6";
 import { FaLightbulb, FaDigitalOcean, FaHeadSideVirus } from "react-icons/fa";
+import { MdConstruction } from "react-icons/md";
 
 export default function ProjectPortfolio() {
   const projects = [
@@ -137,6 +138,21 @@ export default function ProjectPortfolio() {
       image: "/tpossaipreview.jpg",
       bgColor: "bg-[#f3f4f5]",
     },
+    ,
+    {
+      id: 10,
+      icon: MdConstruction,
+      iconbg: "bg-[#872d91]",
+      iconcolor: "text-white",
+      title: "East to West Plant Services",
+      description:
+        "Progressive civil construction, plant hire, and labour hire company delivering reliable, efficient project solutions.",
+      projectlead: "Geewonii",
+      myrole: "Webflow Ui Development",
+      projectlink: "https://www.easttowestplantservices.com//",
+      image: "/east-towest-plantservices.jpg",
+      bgColor: "bg-[#ffffff]",
+    },
   ];
 
   return (
@@ -144,13 +160,6 @@ export default function ProjectPortfolio() {
       <div className="w-full">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12 lg:mb-16">
-            {/* Projects Badge */}
-            {/* <div className="inline-block mb-6 lg:mb-8">
-              <span className="px-6 py-2.5 animated-gradient-bg text-white rounded-full text-base font-normal">
-                Websites Designed & Built by Me
-              </span>
-            </div> */}
-
             {/* Title and All Projects Link */}
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
               <h1 className="leading-normal text-2xl sm:text-[40px] font-medium text-gray-900 max-w-2xl">
