@@ -106,7 +106,7 @@ export default function ProjectPortfolio() {
       projectlead: "Jonathan Pham",
       myrole: "Next.js Ui Development (Tailwind)",
       projectlink: "https://bda.media/",
-      image: "/0-bdamedia.jpg",
+      image: "/bda_media.jpg",
       bgColor: "bg-[#f3f4f5]",
     },
     {
