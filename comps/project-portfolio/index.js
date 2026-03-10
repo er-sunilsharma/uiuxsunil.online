@@ -158,7 +158,7 @@ export default function ProjectPortfolio() {
       icon: FaLeaf,
       iconbg: "bg-[#d48c15]",
       iconcolor: "text-white",
-      title: "East to West Plant Services",
+      title: "Ayush Herbs - Ayurvedic Medicine",
       description:
         "Natural Ayurveda heals root causes, supports balance, and offers sustainable wellness with fewer side effects.",
       projectlead: "Parul Sen - Sales Executive",
