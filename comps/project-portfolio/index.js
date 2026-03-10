@@ -9,6 +9,7 @@ import { SiCivicrm } from "react-icons/si";
 import { FaKitMedical } from "react-icons/fa6";
 import { FaLightbulb, FaDigitalOcean, FaHeadSideVirus } from "react-icons/fa";
 import { MdConstruction } from "react-icons/md";
+import { FaLeaf } from "react-icons/fa";
 
 export default function ProjectPortfolio() {
   const projects = [
@@ -138,7 +139,6 @@ export default function ProjectPortfolio() {
       image: "/tpossaipreview.jpg",
       bgColor: "bg-[#f3f4f5]",
     },
-    ,
     {
       id: 10,
       icon: MdConstruction,
@@ -149,9 +149,23 @@ export default function ProjectPortfolio() {
         "Progressive civil construction, plant hire, and labour hire company delivering reliable, efficient project solutions.",
       projectlead: "Geewonii",
       myrole: "Webflow Ui Development",
-      projectlink: "https://www.easttowestplantservices.com//",
+      projectlink: "https://www.easttowestplantservices.com/",
       image: "/east-towest-plantservices.jpg",
       bgColor: "bg-[#ffffff]",
+    },
+    {
+      id: 11,
+      icon: FaLeaf,
+      iconbg: "bg-[#d48c15]",
+      iconcolor: "text-white",
+      title: "East to West Plant Services",
+      description:
+        "Natural Ayurveda heals root causes, supports balance, and offers sustainable wellness with fewer side effects.",
+      projectlead: "Parul Sen - Sales Executive",
+      myrole: "Shopify CSS Customization",
+      projectlink: "https://ayushherbs.com/",
+      image: "/ayushherbs.jpg",
+      bgColor: "bg-[#f3f5f9]",
     },
   ];
 
@@ -194,7 +208,7 @@ export default function ProjectPortfolio() {
             {projects.map((item) => (
               <div className="flex flex-col md:flex-row top-0 sm:top-24 relative sm:sticky">
                 <div
-                  className={`${item.bgColor} relative py-5 sm:py-0 w-full md:w-3/5 rounded-3xl overflow-hidden order-1 md:order-2 flex justify-center items-center border-solid border-[#ebebeb] border-l sm:border-l-0 border`}
+                  className={`${item.bgColor} relative py-5 sm:py-0 w-full md:w-3/5 rounded-3xl rounded-bl-none rounded-br-none sm:rounded-bl-3xl sm:rounded-br-3xl overflow-hidden order-1 md:order-2 flex justify-center items-center border-solid border-[#ebebeb] border-l sm:border-l-0 border`}
                 >
                   <Image
                     src={item.image}
@@ -207,7 +221,7 @@ export default function ProjectPortfolio() {
                     draggable="false"
                   />
                 </div>
-                <div className="p-6 sm:p-8 w-full md:w-2/5 flex flex-col justify-between overflow-hidden border-solid border-[#ebebeb] border rounded-3xl bg-white order-2 md:order-1">
+                <div className="p-6 sm:p-8 w-full md:w-2/5 flex flex-col justify-between overflow-hidden border-solid border-[#ebebeb] border-t-0 sm:border rounded-tl-none sm:rounded-tl-3xl rounded-tr-none sm:rounded-tr-3xl rounded-3xl bg-white order-2 md:order-1">
                   <div>
                     <div
                       className={`${item.iconbg} w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center mb-8 shadow-lg`}
